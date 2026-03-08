@@ -66,9 +66,9 @@ jobs:
 
       - name: Generate manifest
         if: steps.diff.outcome == 'failure'
-        uses: docker://theappgineer/flatpak-flutter:latest
-        with:
-          args: flatpak-flutter.yaml
+        run: >
+          docker run --rm -v "$PWD":/usr/src/flatpak -u `id -u`:`id -g`
+          theappgineer/flatpak-flutter:latest flatpak-flutter.yaml
 
       - name: Change owner of generated files
         if: steps.diff.outcome == 'failure'
