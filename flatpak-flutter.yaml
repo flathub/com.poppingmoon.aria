@@ -42,6 +42,9 @@ modules:
         tag: v1.4.2
         commit: cdb53425acb1dd537b091a2d2c4968815ecc703e
         disable-submodules: true
+        x-checker-data:
+          type: git
+          tag-pattern: ^v([\d.]+)$
       - type: git
         url: https://github.com/flutter/flutter.git
         tag: 3.38.9
