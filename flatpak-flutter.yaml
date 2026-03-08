@@ -39,15 +39,15 @@ modules:
     sources:
       - type: git
         url: https://github.com/poppingmoon/aria.git
-        tag: v1.4.2
-        commit: cdb53425acb1dd537b091a2d2c4968815ecc703e
+        tag: v1.4.3
+        commit: 23ed4f083832bbbf2d0a63dd0eaeb4de8dbfecdc
         disable-submodules: true
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
       - type: git
         url: https://github.com/flutter/flutter.git
-        tag: 3.38.9
+        tag: 3.41.1
         dest: flutter
     modules:
-      - generated/modules/rustup-1.93.0.json
+      - generated/modules/rustup-1.93.1.json
