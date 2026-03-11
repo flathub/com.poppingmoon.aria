@@ -25,22 +25,26 @@ jobs:
 
       - name: Check diff
         id: diff
-        continue-on-error: true
-        run: git diff --exit-code
+        run: |
+          if git diff --quiet; then
+            echo update_found=false >> $GITHUB_OUTPUT
+          else
+            echo update_found=true >> $GITHUB_OUTPUT
+          fi
 
       - name: Remove outdated dependencies
-        if: steps.diff.outcome == 'failure'
+        if: steps.diff.outputs.update_found
         run: rm -rf generated
 
       - name: Get Aria version
         id: get-aria-version
-        if: steps.diff.outcome == 'failure'
+        if: steps.diff.outputs.update_found
         run: |
           tag=$(yq .modules[0].sources[0].tag flatpak-flutter.yaml)
           echo version=${tag:1} >> $GITHUB_OUTPUT
 
       - name: Checkout Aria
-        if: steps.diff.outcome == 'failure'
+        if: steps.diff.outputs.update_found
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           repository: poppingmoon/aria
@@ -49,33 +53,68 @@ jobs:
           persist-credentials: false
 
       - name: Update Flutter version
-        if: steps.diff.outcome == 'failure'
+        if: steps.diff.outputs.update_found
         run: |
-          version=$(grep flutter aria/.fvmrc | cut -d ":" -f 2 | cut -d "\"" -f 2)
-          yq -i ".modules[0].sources[1].tag=\"$version\"" flatpak-flutter.yaml
+          version=$(yq .flutter aria/.fvmrc)
+          yq -i .modules[0].sources[1].tag=\"$version\" flatpak-flutter.yaml
+
+      - name: Update fvp
+        if: steps.diff.outputs.update_found
+        run: |
+          ref=$(yq .dependencies.fvp.git.ref aria/pubspec.yaml)
+          if ! grep -q fvp-$ref foreign.json; then
+            yq -io json .fvp.manifest.sources[0].dest=\".pub-cache/git/fvp-$ref/linux/mdk-sdk\" foreign.json
+            release=$(curl -sL https://api.github.com/repos/wang-bin/mdk-sdk/releases/latest)
+            asset=$(echo $release | yq '.assets[] | select(.name == "mdk-sdk-linux.tar.xz")')
+            url=$(echo $asset | yq .browser_download_url)
+            yq -io json .fvp.manifest.sources[0].url=\"$url\" foreign.json
+            digest=$(echo $asset | yq -r .digest)
+            yq -io json .fvp.manifest.sources[0].sha256=\"${digest:7}\" foreign.json
+          fi
+
+      - name: Update isar
+        if: steps.diff.outputs.update_found
+        run: |
+          ref=$(yq .dependencies.isar_community_flutter_libs.git.ref aria/pubspec.yaml)
+          if ! grep -q isar-community-$ref foreign.json; then
+            yq -io json .isar_community_flutter_libs.cargo_locks=[\".pub-cache/git/isar-community-$ref\"] foreign.json
+            yq -io json .isar_community_flutter_libs.extra_pubspecs=[\".pub-cache/git/isar-community-$ref/packages/isar_community_flutter_libs/cargokit/build_tool\"] foreign.json
+            yq -io json .isar_community_flutter_libs.manifest.sources[0].dest=\".pub-cache/git/isar-community-$ref/packages/isar_community_flutter_libs/cargokit\" foreign.json
+            release=$(curl -sL https://api.github.com/repos/poppingmoon/isar-community/releases/latest)
+            tag=$(echo $release | yq -r .tag_name)
+            crate_hash=${tag:12}
+            yq -io json .isar_community_flutter_libs.manifest.sources[1].dest=\"build/linux/x64/release/plugins/isar_community_flutter_libs/cargokit_build/precompiled/$crate_hash\" foreign.json
+            yq -io json .isar_community_flutter_libs.manifest.sources[2].dest=\"build/linux/arm64/release/plugins/isar_community_flutter_libs/cargokit_build/precompiled/$crate_hash\" foreign.json
+            asset_x86_64=$(echo $release | yq '.assets[] | select(.name == "x86_64-unknown-linux-gnu_libisar.so")')
+            url_x86_64=$(echo $asset_x86_64 | yq .browser_download_url)
+            yq -io json .isar_community_flutter_libs.manifest.sources[1].url=\"$url_x86_64\" foreign.json
+            digest_x86_64=$(echo $asset_x86_64 | yq -r .digest)
+            yq -io json .isar_community_flutter_libs.manifest.sources[1].sha256=\"${digest_x86_64:7}\" foreign.json
+            asset_aarch64=$(echo $release | yq '.assets[] | select(.name == "aarch64-unknown-linux-gnu_libisar.so")')
+            url_aarch64=$(echo $asset_aarch64 | yq .browser_download_url)
+            yq -io json .isar_community_flutter_libs.manifest.sources[2].url=\"$url_aarch64\" foreign.json
+            digest_aarch64=$(echo $asset_aarch64 | yq -r .digest)
+            yq -io json .isar_community_flutter_libs.manifest.sources[2].sha256=\"${digest_aarch64:7}\" foreign.json
+          fi
 
       - name: Remove Aria
-        if: steps.diff.outcome == 'failure'
+        if: steps.diff.outputs.update_found
         run: rm -rf aria
 
       - name: Update Rust version
-        if: steps.diff.outcome == 'failure'
+        if: steps.diff.outputs.update_found
         run: |
           version=$(rustc --version | cut -d " " -f 2)
-          yq -i ".modules[0].modules[0]=\"generated/modules/rustup-$version.json\"" flatpak-flutter.yaml
+          yq -i .modules[0].modules[0]=\"generated/modules/rustup-$version.json\" flatpak-flutter.yaml
 
       - name: Generate manifest
-        if: steps.diff.outcome == 'failure'
+        if: steps.diff.outputs.update_found
         run: >
           docker run --rm -v "$PWD":/usr/src/flatpak -u `id -u`:`id -g`
           theappgineer/flatpak-flutter:latest flatpak-flutter.yaml
 
-      - name: Change owner of generated files
-        if: steps.diff.outcome == 'failure'
-        run: sudo chown -R $(whoami) generated
-
       - name: Create Pull Request
-        if: steps.diff.outcome == 'failure'
+        if: steps.diff.outputs.update_found
         uses: peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0 # v8.1.0
         with:
           commit-message: Update Aria to ${{ steps.get-aria-version.outputs.version }}
