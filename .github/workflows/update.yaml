@@ -33,18 +33,18 @@ jobs:
           fi
 
       - name: Remove outdated dependencies
-        if: steps.diff.outputs.update_found
+        if: steps.diff.outputs.update_found == 'true'
         run: rm -rf generated
 
       - name: Get Aria version
         id: get-aria-version
-        if: steps.diff.outputs.update_found
+        if: steps.diff.outputs.update_found == 'true'
         run: |
           tag=$(yq .modules[0].sources[0].tag flatpak-flutter.yaml)
           echo version=${tag:1} >> $GITHUB_OUTPUT
 
       - name: Checkout Aria
-        if: steps.diff.outputs.update_found
+        if: steps.diff.outputs.update_found == 'true'
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           repository: poppingmoon/aria
@@ -53,13 +53,13 @@ jobs:
           persist-credentials: false
 
       - name: Update Flutter version
-        if: steps.diff.outputs.update_found
+        if: steps.diff.outputs.update_found == 'true'
         run: |
           version=$(yq .flutter aria/.fvmrc)
           yq -i .modules[0].sources[1].tag=\"$version\" flatpak-flutter.yaml
 
       - name: Update fvp
-        if: steps.diff.outputs.update_found
+        if: steps.diff.outputs.update_found == 'true'
         run: |
           ref=$(yq .dependencies.fvp.git.ref aria/pubspec.yaml)
           if ! grep -q fvp-$ref foreign.json; then
@@ -73,7 +73,7 @@ jobs:
           fi
 
       - name: Update isar
-        if: steps.diff.outputs.update_found
+        if: steps.diff.outputs.update_found == 'true'
         run: |
           ref=$(yq .dependencies.isar_community_flutter_libs.git.ref aria/pubspec.yaml)
           if ! grep -q isar-community-$ref foreign.json; then
@@ -98,23 +98,23 @@ jobs:
           fi
 
       - name: Remove Aria
-        if: steps.diff.outputs.update_found
+        if: steps.diff.outputs.update_found == 'true'
         run: rm -rf aria
 
       - name: Update Rust version
-        if: steps.diff.outputs.update_found
+        if: steps.diff.outputs.update_found == 'true'
         run: |
           version=$(rustc --version | cut -d " " -f 2)
           yq -i .modules[0].modules[0]=\"generated/modules/rustup-$version.json\" flatpak-flutter.yaml
 
       - name: Generate manifest
-        if: steps.diff.outputs.update_found
+        if: steps.diff.outputs.update_found == 'true'
         run: >
           docker run --rm -v "$PWD":/usr/src/flatpak -u `id -u`:`id -g`
           theappgineer/flatpak-flutter:latest flatpak-flutter.yaml
 
       - name: Create Pull Request
-        if: steps.diff.outputs.update_found
+        if: steps.diff.outputs.update_found == 'true'
         uses: peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0 # v8.1.0
         with:
           commit-message: Update Aria to ${{ steps.get-aria-version.outputs.version }}
