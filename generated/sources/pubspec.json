@@ -197,16 +197,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/build-4.0.4.tar.gz",
-        "sha256": "275bf6bb2a00a9852c28d4e0b410da1d833a734d57d39d44f94bfc895a484ec3",
+        "url": "https://pub.dev/api/archives/build-4.0.5.tar.gz",
+        "sha256": "aadd943f4f8cc946882c954c187e6115a84c98c81ad1d9c6cbf0895a8c85da9c",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/build-4.0.4"
+        "dest": ".pub-cache/hosted/pub.dev/build-4.0.5"
     },
     {
         "type": "inline",
-        "contents": "275bf6bb2a00a9852c28d4e0b410da1d833a734d57d39d44f94bfc895a484ec3",
+        "contents": "aadd943f4f8cc946882c954c187e6115a84c98c81ad1d9c6cbf0895a8c85da9c",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "build-4.0.4.sha256"
+        "dest-filename": "build-4.0.5.sha256"
     },
     {
         "type": "archive",
@@ -253,16 +253,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/build_runner-2.13.0.tar.gz",
-        "sha256": "3552e5c2874ed47cf9ed9d6813ac71b2276ee07622f48530468b8013f1767e3f",
+        "url": "https://pub.dev/api/archives/build_runner-2.13.1.tar.gz",
+        "sha256": "521daf8d189deb79ba474e43a696b41c49fb3987818dbacf3308f1e03673a75e",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/build_runner-2.13.0"
+        "dest": ".pub-cache/hosted/pub.dev/build_runner-2.13.1"
     },
     {
         "type": "inline",
-        "contents": "3552e5c2874ed47cf9ed9d6813ac71b2276ee07622f48530468b8013f1767e3f",
+        "contents": "521daf8d189deb79ba474e43a696b41c49fb3987818dbacf3308f1e03673a75e",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "build_runner-2.13.0.sha256"
+        "dest-filename": "build_runner-2.13.1.sha256"
     },
     {
         "type": "archive",
@@ -1843,28 +1843,28 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/isar_community-3.3.0.tar.gz",
-        "sha256": "d92315e1862448f236489c2b2b1f9a7ad5ba2405f42d87216234be4fb2e1dd2d",
+        "url": "https://pub.dev/api/archives/isar_community-3.3.2.tar.gz",
+        "sha256": "683fd093956eac3a660776afb70d65d50a3391b3587b40b89e3d12586b8cc47f",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/isar_community-3.3.0"
+        "dest": ".pub-cache/hosted/pub.dev/isar_community-3.3.2"
     },
     {
         "type": "inline",
-        "contents": "d92315e1862448f236489c2b2b1f9a7ad5ba2405f42d87216234be4fb2e1dd2d",
+        "contents": "683fd093956eac3a660776afb70d65d50a3391b3587b40b89e3d12586b8cc47f",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "isar_community-3.3.0.sha256"
+        "dest-filename": "isar_community-3.3.2.sha256"
     },
     {
         "type": "git",
         "url": "https://github.com/poppingmoon/isar-community",
-        "commit": "e5c2005ae491283d25f20020d68fe1ad5c85f1c6",
-        "dest": ".pub-cache/git/isar-community-e5c2005ae491283d25f20020d68fe1ad5c85f1c6"
+        "commit": "c09cf49881b0ba0013198f31cbcc001a26f6ef63",
+        "dest": ".pub-cache/git/isar-community-c09cf49881b0ba0013198f31cbcc001a26f6ef63"
     },
     {
         "type": "shell",
         "commands": [
             "mkdir -p .pub-cache/git/cache/isar-community-d2dcbee56dc657be6ea942f13eb2e799b6e1f5fd",
-            "cp -rf .pub-cache/git/isar-community-e5c2005ae491283d25f20020d68fe1ad5c85f1c6/.git/* .pub-cache/git/cache/isar-community-d2dcbee56dc657be6ea942f13eb2e799b6e1f5fd"
+            "cp -rf .pub-cache/git/isar-community-c09cf49881b0ba0013198f31cbcc001a26f6ef63/.git/* .pub-cache/git/cache/isar-community-d2dcbee56dc657be6ea942f13eb2e799b6e1f5fd"
         ]
     },
     {
@@ -3057,30 +3057,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/source_gen-4.2.1.tar.gz",
-        "sha256": "adc962c96fffb2de1728ef396a995aaedcafbe635abdca13d2a987ce17e57751",
+        "url": "https://pub.dev/api/archives/source_gen-4.2.2.tar.gz",
+        "sha256": "732792cfd197d2161a65bb029606a46e0a18ff30ef9e141a7a82172b05ea8ecd",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/source_gen-4.2.1"
+        "dest": ".pub-cache/hosted/pub.dev/source_gen-4.2.2"
     },
     {
         "type": "inline",
-        "contents": "adc962c96fffb2de1728ef396a995aaedcafbe635abdca13d2a987ce17e57751",
+        "contents": "732792cfd197d2161a65bb029606a46e0a18ff30ef9e141a7a82172b05ea8ecd",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "source_gen-4.2.1.sha256"
+        "dest-filename": "source_gen-4.2.2.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/source_helper-1.3.10.tar.gz",
-        "sha256": "4a85e90b50694e652075cbe4575665539d253e6ec10e46e76b45368ab5e3caae",
+        "url": "https://pub.dev/api/archives/source_helper-1.3.11.tar.gz",
+        "sha256": "1d3b229b2934034fb2e691fbb3d53e0f75a4af7b1407f88425ed8f209bcb1b8f",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/source_helper-1.3.10"
+        "dest": ".pub-cache/hosted/pub.dev/source_helper-1.3.11"
     },
     {
         "type": "inline",
-        "contents": "4a85e90b50694e652075cbe4575665539d253e6ec10e46e76b45368ab5e3caae",
+        "contents": "1d3b229b2934034fb2e691fbb3d53e0f75a4af7b1407f88425ed8f209bcb1b8f",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "source_helper-1.3.10.sha256"
+        "dest-filename": "source_helper-1.3.11.sha256"
     },
     {
         "type": "archive",
@@ -3866,14 +3866,14 @@
     {
         "type": "git",
         "url": "https://github.com/poppingmoon/webcrypto.dart",
-        "commit": "ccff335af62d467592f90e621934ba593a07ad9b",
-        "dest": ".pub-cache/git/webcrypto.dart-ccff335af62d467592f90e621934ba593a07ad9b"
+        "commit": "78c1829c9eb0749ada4043ca64b79e01da744a27",
+        "dest": ".pub-cache/git/webcrypto.dart-78c1829c9eb0749ada4043ca64b79e01da744a27"
     },
     {
         "type": "shell",
         "commands": [
             "mkdir -p .pub-cache/git/cache/webcrypto.dart-94a148f7846a87329d59c6551f18e31bc5102a2f",
-            "cp -rf .pub-cache/git/webcrypto.dart-ccff335af62d467592f90e621934ba593a07ad9b/.git/* .pub-cache/git/cache/webcrypto.dart-94a148f7846a87329d59c6551f18e31bc5102a2f"
+            "cp -rf .pub-cache/git/webcrypto.dart-78c1829c9eb0749ada4043ca64b79e01da744a27/.git/* .pub-cache/git/cache/webcrypto.dart-94a148f7846a87329d59c6551f18e31bc5102a2f"
         ]
     },
     {
@@ -5285,22 +5285,22 @@
     {
         "type": "patch",
         "path": "generated/patches/cargokit/run_build_tool.sh.patch",
-        "dest": ".pub-cache/git/isar-community-e5c2005ae491283d25f20020d68fe1ad5c85f1c6/packages/isar_community_flutter_libs/cargokit"
+        "dest": ".pub-cache/git/isar-community-c09cf49881b0ba0013198f31cbcc001a26f6ef63/packages/isar_community_flutter_libs/cargokit"
     },
     {
         "type": "file",
-        "url": "https://github.com/poppingmoon/isar-community/releases/download/precompiled_04599e740b9edbc7da12bde89421215e/x86_64-unknown-linux-gnu_libisar.so",
-        "sha256": "1606d6886eedec8c1f856383410b1f91f22a5e69fa68317f33eda247a62d5afe",
-        "dest": "build/linux/x64/release/plugins/isar_community_flutter_libs/cargokit_build/precompiled/04599e740b9edbc7da12bde89421215e",
+        "url": "https://github.com/poppingmoon/isar-community/releases/download/precompiled_af980c843008bf9925fd29de8e930985/x86_64-unknown-linux-gnu_libisar.so",
+        "sha256": "10b81cc4a18c7cea037d27adb69431227c3f877cdb04331f24cd05cfb7f10d92",
+        "dest": "build/linux/x64/release/plugins/isar_community_flutter_libs/cargokit_build/precompiled/af980c843008bf9925fd29de8e930985",
         "only-arches": [
             "x86_64"
         ]
     },
     {
         "type": "file",
-        "url": "https://github.com/poppingmoon/isar-community/releases/download/precompiled_04599e740b9edbc7da12bde89421215e/aarch64-unknown-linux-gnu_libisar.so",
-        "sha256": "a58464b6ba60a0c9febbc9df1ac71f23c68d6d733b942e1a2193319394c49f71",
-        "dest": "build/linux/arm64/release/plugins/isar_community_flutter_libs/cargokit_build/precompiled/04599e740b9edbc7da12bde89421215e",
+        "url": "https://github.com/poppingmoon/isar-community/releases/download/precompiled_af980c843008bf9925fd29de8e930985/aarch64-unknown-linux-gnu_libisar.so",
+        "sha256": "bdacf98c2de86b4ab136db298378471d7a370f96fcfa39bc6dc1eaf4ae32e399",
+        "dest": "build/linux/arm64/release/plugins/isar_community_flutter_libs/cargokit_build/precompiled/af980c843008bf9925fd29de8e930985",
         "only-arches": [
             "aarch64"
         ]

@@ -39,8 +39,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/poppingmoon/aria.git
-        tag: v1.4.6
-        commit: a35b7769c729cdf506bd7bd2b6605a9197ad3806
+        tag: v1.4.7
+        commit: 9f235effd799c04d5da3af521f7e1b118fd9c43b
         disable-submodules: true
         x-checker-data:
           type: git
