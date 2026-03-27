@@ -2311,6 +2311,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/unicode-segmentation/unicode-segmentation-1.13.1.crate",
+        "sha256": "da36089a805484bcccfffe0739803392c8298778a2d2f09febf76fac5ad9025b",
+        "dest": "cargo/vendor/unicode-segmentation-1.13.1"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"da36089a805484bcccfffe0739803392c8298778a2d2f09febf76fac5ad9025b\", \"files\": {}}",
+        "dest": "cargo/vendor/unicode-segmentation-1.13.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/unicode-xid/unicode-xid-0.2.6.crate",
         "sha256": "ebc1c04c71510c7f702b52b7c350734c9ff1295c464a03335b00bb84fc54f853",
         "dest": "cargo/vendor/unicode-xid-0.2.6"
