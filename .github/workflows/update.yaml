@@ -75,26 +75,32 @@ jobs:
       - name: Update isar
         if: steps.diff.outputs.update_found == 'true'
         run: |
-          ref=$(yq .dependencies.isar_community_flutter_libs.git.ref aria/pubspec.yaml)
+          ref=$(yq .dependency_overrides.isar_community.git.ref aria/pubspec.yaml)
           if ! grep -q isar-community-$ref foreign.json; then
-            yq -io json .isar_community_flutter_libs.cargo_locks=[\".pub-cache/git/isar-community-$ref\"] foreign.json
-            yq -io json .isar_community_flutter_libs.extra_pubspecs=[\".pub-cache/git/isar-community-$ref/packages/isar_community_flutter_libs/cargokit/build_tool\"] foreign.json
-            yq -io json .isar_community_flutter_libs.manifest.sources[0].dest=\".pub-cache/git/isar-community-$ref/packages/isar_community_flutter_libs/cargokit\" foreign.json
-            release=$(curl -sL https://api.github.com/repos/poppingmoon/isar-community/releases/latest)
-            tag=$(echo $release | yq -r .tag_name)
-            crate_hash=${tag:12}
-            yq -io json .isar_community_flutter_libs.manifest.sources[1].dest=\"build/linux/x64/release/plugins/isar_community_flutter_libs/cargokit_build/precompiled/$crate_hash\" foreign.json
-            yq -io json .isar_community_flutter_libs.manifest.sources[2].dest=\"build/linux/arm64/release/plugins/isar_community_flutter_libs/cargokit_build/precompiled/$crate_hash\" foreign.json
-            asset_x86_64=$(echo $release | yq '.assets[] | select(.name == "x86_64-unknown-linux-gnu_libisar.so")')
-            url_x86_64=$(echo $asset_x86_64 | yq .browser_download_url)
-            yq -io json .isar_community_flutter_libs.manifest.sources[1].url=\"$url_x86_64\" foreign.json
-            digest_x86_64=$(echo $asset_x86_64 | yq -r .digest)
-            yq -io json .isar_community_flutter_libs.manifest.sources[1].sha256=\"${digest_x86_64:7}\" foreign.json
-            asset_aarch64=$(echo $release | yq '.assets[] | select(.name == "aarch64-unknown-linux-gnu_libisar.so")')
-            url_aarch64=$(echo $asset_aarch64 | yq .browser_download_url)
-            yq -io json .isar_community_flutter_libs.manifest.sources[2].url=\"$url_aarch64\" foreign.json
-            digest_aarch64=$(echo $asset_aarch64 | yq -r .digest)
-            yq -io json .isar_community_flutter_libs.manifest.sources[2].sha256=\"${digest_aarch64:7}\" foreign.json
+            dest=.pub-cache/git/isar-community-$ref/packages/isar_community
+            yq -io json .isar_community.manifest.sources[0].dest=\"$dest/hook\" foreign.json
+            yq -io json .isar_community.manifest.sources[1].dest=\"$dest\" foreign.json
+            yq -io json .isar_community.manifest.sources[2].dest=\"$dest\" foreign.json
+
+            git clone https://github.com/poppingmoon/isar-community
+            pushd isar-community
+            git checkout $ref
+            popd
+
+            version=$(grep version isar-community/packages/isar_community/lib/src/hook_helpers/version.dart | cut -d "'" -f 2)
+            name_x86_64=libisar_x86_64-unknown-linux-gnu.so
+            name_aarch64=libisar_aarch64-unknown-linux-gnu.so
+            url_x86_64=https://github.com/poppingmoon/isar-community/releases/download/$version/$name_x86_64
+            url_aarch64=https://github.com/poppingmoon/isar-community/releases/download/$version/$name_aarch64
+            yq -io json .isar_community.manifest.sources[1].url=\"$url_x86_64\" foreign.json
+            yq -io json .isar_community.manifest.sources[2].url=\"$url_aarch64\" foreign.json
+
+            hash_x86_64=$(grep -A 1 $name_x86_64 isar-community/packages/isar_community/lib/src/hook_helpers/hashes.dart | tail -n 1 | cut -d "'" -f 2)
+            hash_aarch64=$(grep -A 1 $name_aarch64 isar-community/packages/isar_community/lib/src/hook_helpers/hashes.dart | tail -n 1 | cut -d "'" -f 2)
+            yq -io json .isar_community.manifest.sources[1].sha256=\"$hash_x86_64\" foreign.json
+            yq -io json .isar_community.manifest.sources[2].sha256=\"$hash_aarch64\" foreign.json
+
+            rm -r isar-community
           fi
 
       - name: Remove Aria

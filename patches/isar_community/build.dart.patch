@@ -1,0 +1,15 @@
+diff --git a/build.dart b/build.dart
+index 31c07539..e7cc5efd 100644
+--- a/build.dart
++++ b/build.dart
+@@ -21,9 +21,8 @@ void main(List<String> args) async {
+         path.fromUri(input.outputDirectory),
+         'target',
+       );
+-      final file = await downloadAsset(
++      final file = File(
+         targetOS.libraryFileName('isar_$targetTriple', linkMode),
+-        Directory(outputDir),
+       );
+       final fileHash = hashAsset(file);
+       final expectedHash = assetHashes[path.basename(file.path)];
