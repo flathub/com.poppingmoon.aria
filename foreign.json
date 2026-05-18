@@ -4,41 +4,35 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/wang-bin/mdk-sdk/releases/download/v0.35.0/mdk-sdk-linux.tar.xz",
-          "sha256": "3ca102c26b3f246258b1822f51653450148bc25b188a4630dc81a57965e56ed8",
-          "dest": ".pub-cache/git/fvp-40be5996125c6ee95714a8be64d69fa49ad35724/linux/mdk-sdk"
+          "url": "https://github.com/wang-bin/mdk-sdk/releases/download/v0.36.0/mdk-sdk-linux.tar.xz",
+          "sha256": "92da629910c64d1aa1024b66601bb30f731f837bd07b3fd206786be5e3ad9218",
+          "dest": ".pub-cache/git/fvp-eaecc1226f8f8ec9141d3145f627a0ec5550e3b1/linux/mdk-sdk"
         }
       ]
     }
   },
-  "isar_community_flutter_libs": {
-    "cargo_locks": [
-      ".pub-cache/git/isar-community-c09cf49881b0ba0013198f31cbcc001a26f6ef63"
-    ],
-    "extra_pubspecs": [
-      ".pub-cache/git/isar-community-c09cf49881b0ba0013198f31cbcc001a26f6ef63/packages/isar_community_flutter_libs/cargokit/build_tool"
-    ],
+  "isar_community": {
     "manifest": {
       "sources": [
         {
           "type": "patch",
-          "path": "cargokit/run_build_tool.sh.patch",
-          "dest": ".pub-cache/git/isar-community-c09cf49881b0ba0013198f31cbcc001a26f6ef63/packages/isar_community_flutter_libs/cargokit"
+          "path": "patches/isar_community/build.dart.patch",
+          "dest": ".pub-cache/git/isar-community-c376e990b9e0978f22250c74159350dd598fd4f8/packages/isar_community/hook"
         },
         {
           "type": "file",
-          "url": "https://github.com/poppingmoon/isar-community/releases/download/precompiled_af980c843008bf9925fd29de8e930985/x86_64-unknown-linux-gnu_libisar.so",
-          "sha256": "10b81cc4a18c7cea037d27adb69431227c3f877cdb04331f24cd05cfb7f10d92",
-          "dest": "build/linux/x64/release/plugins/isar_community_flutter_libs/cargokit_build/precompiled/af980c843008bf9925fd29de8e930985",
+          "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2-2026.05.05/libisar_x86_64-unknown-linux-gnu.so",
+          "sha256": "571e1c2c09b70211f6a9946d25afa691336be21c61caee2a816a196813fab92a",
+          "dest": ".pub-cache/git/isar-community-c376e990b9e0978f22250c74159350dd598fd4f8/packages/isar_community",
           "only-arches": [
             "x86_64"
           ]
         },
         {
           "type": "file",
-          "url": "https://github.com/poppingmoon/isar-community/releases/download/precompiled_af980c843008bf9925fd29de8e930985/aarch64-unknown-linux-gnu_libisar.so",
-          "sha256": "bdacf98c2de86b4ab136db298378471d7a370f96fcfa39bc6dc1eaf4ae32e399",
-          "dest": "build/linux/arm64/release/plugins/isar_community_flutter_libs/cargokit_build/precompiled/af980c843008bf9925fd29de8e930985",
+          "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2-2026.05.05/libisar_aarch64-unknown-linux-gnu.so",
+          "sha256": "35c1cd174b00daa5771a22ce582946536a0659ca1df7330746585015fb1d96e8",
+          "dest": ".pub-cache/git/isar-community-c376e990b9e0978f22250c74159350dd598fd4f8/packages/isar_community",
           "only-arches": [
             "aarch64"
           ]
