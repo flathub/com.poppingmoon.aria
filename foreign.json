@@ -17,13 +17,13 @@
         {
           "type": "patch",
           "path": "patches/isar_community/build.dart.patch",
-          "dest": ".pub-cache/git/isar-community-c376e990b9e0978f22250c74159350dd598fd4f8/packages/isar_community/hook"
+          "dest": ".pub-cache/git/isar-community-81a5bb0aa550a6c75a190924a5f1cb6e4c664b7b/packages/isar_community/hook"
         },
         {
           "type": "file",
           "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2-2026.05.05/libisar_x86_64-unknown-linux-gnu.so",
           "sha256": "571e1c2c09b70211f6a9946d25afa691336be21c61caee2a816a196813fab92a",
-          "dest": ".pub-cache/git/isar-community-c376e990b9e0978f22250c74159350dd598fd4f8/packages/isar_community",
+          "dest": ".pub-cache/git/isar-community-81a5bb0aa550a6c75a190924a5f1cb6e4c664b7b/packages/isar_community",
           "only-arches": [
             "x86_64"
           ]
@@ -32,7 +32,7 @@
           "type": "file",
           "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2-2026.05.05/libisar_aarch64-unknown-linux-gnu.so",
           "sha256": "35c1cd174b00daa5771a22ce582946536a0659ca1df7330746585015fb1d96e8",
-          "dest": ".pub-cache/git/isar-community-c376e990b9e0978f22250c74159350dd598fd4f8/packages/isar_community",
+          "dest": ".pub-cache/git/isar-community-81a5bb0aa550a6c75a190924a5f1cb6e4c664b7b/packages/isar_community",
           "only-arches": [
             "aarch64"
           ]

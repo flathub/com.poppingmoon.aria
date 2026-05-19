@@ -965,18 +965,17 @@
         "dest-filename": "file-7.0.1.sha256"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/file_picker-12.0.0-beta.3.tar.gz",
-        "sha256": "51093fc49e4d58935998fb112593c23eda571d14b488388bd41d5d2ba332b26a",
-        "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/file_picker-12.0.0-beta.3"
+        "type": "git",
+        "url": "https://github.com/miguelpruivo/flutter_file_picker",
+        "commit": "064f0cc23d704069168c13306a12a17090ceaf30",
+        "dest": ".pub-cache/git/flutter_file_picker-064f0cc23d704069168c13306a12a17090ceaf30"
     },
     {
-        "type": "inline",
-        "contents": "51093fc49e4d58935998fb112593c23eda571d14b488388bd41d5d2ba332b26a",
-        "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "file_picker-12.0.0-beta.3.sha256"
+        "type": "shell",
+        "commands": [
+            "mkdir -p .pub-cache/git/cache/flutter_file_picker-a2e2aae850bd17a6eb4ce79d60950df425b88f10",
+            "cp -rf .pub-cache/git/flutter_file_picker-064f0cc23d704069168c13306a12a17090ceaf30/.git/* .pub-cache/git/cache/flutter_file_picker-a2e2aae850bd17a6eb4ce79d60950df425b88f10"
+        ]
     },
     {
         "type": "archive",
@@ -1983,14 +1982,14 @@
     {
         "type": "git",
         "url": "https://github.com/poppingmoon/isar-community",
-        "commit": "c376e990b9e0978f22250c74159350dd598fd4f8",
-        "dest": ".pub-cache/git/isar-community-c376e990b9e0978f22250c74159350dd598fd4f8"
+        "commit": "81a5bb0aa550a6c75a190924a5f1cb6e4c664b7b",
+        "dest": ".pub-cache/git/isar-community-81a5bb0aa550a6c75a190924a5f1cb6e4c664b7b"
     },
     {
         "type": "shell",
         "commands": [
             "mkdir -p .pub-cache/git/cache/isar-community-d2dcbee56dc657be6ea942f13eb2e799b6e1f5fd",
-            "cp -rf .pub-cache/git/isar-community-c376e990b9e0978f22250c74159350dd598fd4f8/.git/* .pub-cache/git/cache/isar-community-d2dcbee56dc657be6ea942f13eb2e799b6e1f5fd"
+            "cp -rf .pub-cache/git/isar-community-81a5bb0aa550a6c75a190924a5f1cb6e4c664b7b/.git/* .pub-cache/git/cache/isar-community-d2dcbee56dc657be6ea942f13eb2e799b6e1f5fd"
         ]
     },
     {
@@ -3516,16 +3515,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/sqflite_common-2.5.7.tar.gz",
-        "sha256": "f8a08a13fb8f0f8c590df89d745000bed44a673ed94bac846739e1a016875c21",
+        "url": "https://pub.dev/api/archives/sqflite_common-2.5.8.tar.gz",
+        "sha256": "1581ffbf7a0e333b380d6a30737d78516b826cb35beb7fb0bf8a3ea0c678b465",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/sqflite_common-2.5.7"
+        "dest": ".pub-cache/hosted/pub.dev/sqflite_common-2.5.8"
     },
     {
         "type": "inline",
-        "contents": "f8a08a13fb8f0f8c590df89d745000bed44a673ed94bac846739e1a016875c21",
+        "contents": "1581ffbf7a0e333b380d6a30737d78516b826cb35beb7fb0bf8a3ea0c678b465",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "sqflite_common-2.5.7.sha256"
+        "dest-filename": "sqflite_common-2.5.8.sha256"
     },
     {
         "type": "archive",
@@ -4017,16 +4016,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/vector_graphics-1.2.1.tar.gz",
-        "sha256": "4d35a36400983c3457c289d4d553b5308f506ea84f7e51c7a564651b5525209a",
+        "url": "https://pub.dev/api/archives/vector_graphics-1.2.2.tar.gz",
+        "sha256": "2306c03da2ba81724afeb589c351ebbc0aa7d86005925be8f8735856dbe5e42d",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/vector_graphics-1.2.1"
+        "dest": ".pub-cache/hosted/pub.dev/vector_graphics-1.2.2"
     },
     {
         "type": "inline",
-        "contents": "4d35a36400983c3457c289d4d553b5308f506ea84f7e51c7a564651b5525209a",
+        "contents": "2306c03da2ba81724afeb589c351ebbc0aa7d86005925be8f8735856dbe5e42d",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "vector_graphics-1.2.1.sha256"
+        "dest-filename": "vector_graphics-1.2.2.sha256"
     },
     {
         "type": "archive",
@@ -4045,16 +4044,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/vector_graphics_compiler-1.2.2.tar.gz",
-        "sha256": "98e7e94de127b46a86ef46197fff84ff99f3d3b80a708390d717ad731efef598",
+        "url": "https://pub.dev/api/archives/vector_graphics_compiler-1.2.3.tar.gz",
+        "sha256": "b9b3f391857781aa96acacef96066f2f49b4cd03cf9fce3ca4d8da2ef5ea129e",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/vector_graphics_compiler-1.2.2"
+        "dest": ".pub-cache/hosted/pub.dev/vector_graphics_compiler-1.2.3"
     },
     {
         "type": "inline",
-        "contents": "98e7e94de127b46a86ef46197fff84ff99f3d3b80a708390d717ad731efef598",
+        "contents": "b9b3f391857781aa96acacef96066f2f49b4cd03cf9fce3ca4d8da2ef5ea129e",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "vector_graphics_compiler-1.2.2.sha256"
+        "dest-filename": "vector_graphics_compiler-1.2.3.sha256"
     },
     {
         "type": "archive",
@@ -4101,16 +4100,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/video_player_avfoundation-2.9.6.tar.gz",
-        "sha256": "a39d6f28f8069564d8cc17396472f958dd9eaddf2d5c8e90aad4d793ac369bf3",
+        "url": "https://pub.dev/api/archives/video_player_avfoundation-2.9.7.tar.gz",
+        "sha256": "9338f3ec22774f88146b22f13273a446719b1da010fd200c4d1d97802156ac58",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/video_player_avfoundation-2.9.6"
+        "dest": ".pub-cache/hosted/pub.dev/video_player_avfoundation-2.9.7"
     },
     {
         "type": "inline",
-        "contents": "a39d6f28f8069564d8cc17396472f958dd9eaddf2d5c8e90aad4d793ac369bf3",
+        "contents": "9338f3ec22774f88146b22f13273a446719b1da010fd200c4d1d97802156ac58",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "video_player_avfoundation-2.9.6.sha256"
+        "dest-filename": "video_player_avfoundation-2.9.7.sha256"
     },
     {
         "type": "archive",
@@ -5701,13 +5700,13 @@
     {
         "type": "patch",
         "path": "patches/isar_community/build.dart.patch",
-        "dest": ".pub-cache/git/isar-community-c376e990b9e0978f22250c74159350dd598fd4f8/packages/isar_community/hook"
+        "dest": ".pub-cache/git/isar-community-81a5bb0aa550a6c75a190924a5f1cb6e4c664b7b/packages/isar_community/hook"
     },
     {
         "type": "file",
         "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2-2026.05.05/libisar_x86_64-unknown-linux-gnu.so",
         "sha256": "571e1c2c09b70211f6a9946d25afa691336be21c61caee2a816a196813fab92a",
-        "dest": ".pub-cache/git/isar-community-c376e990b9e0978f22250c74159350dd598fd4f8/packages/isar_community",
+        "dest": ".pub-cache/git/isar-community-81a5bb0aa550a6c75a190924a5f1cb6e4c664b7b/packages/isar_community",
         "only-arches": [
             "x86_64"
         ]
@@ -5716,7 +5715,7 @@
         "type": "file",
         "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2-2026.05.05/libisar_aarch64-unknown-linux-gnu.so",
         "sha256": "35c1cd174b00daa5771a22ce582946536a0659ca1df7330746585015fb1d96e8",
-        "dest": ".pub-cache/git/isar-community-c376e990b9e0978f22250c74159350dd598fd4f8/packages/isar_community",
+        "dest": ".pub-cache/git/isar-community-81a5bb0aa550a6c75a190924a5f1cb6e4c664b7b/packages/isar_community",
         "only-arches": [
             "aarch64"
         ]

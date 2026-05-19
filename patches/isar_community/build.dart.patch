@@ -1,15 +1,16 @@
 diff --git a/build.dart b/build.dart
-index 31c07539..e7cc5efd 100644
+index 1ad4d5c2..f79932f0 100644
 --- a/build.dart
 +++ b/build.dart
-@@ -21,9 +21,8 @@ void main(List<String> args) async {
-         path.fromUri(input.outputDirectory),
+@@ -22,10 +22,8 @@ void main(List<String> args) async {
          'target',
        );
+       final httpsProxy = input.userDefines['https_proxy'] as String?;
 -      final file = await downloadAsset(
 +      final file = File(
          targetOS.libraryFileName('isar_$targetTriple', linkMode),
 -        Directory(outputDir),
+-        httpsProxy: httpsProxy,
        );
        final fileHash = hashAsset(file);
        final expectedHash = assetHashes[path.basename(file.path)];
