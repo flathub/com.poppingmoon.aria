@@ -6,7 +6,7 @@
           "type": "archive",
           "url": "https://github.com/wang-bin/mdk-sdk/releases/download/v0.36.0/mdk-sdk-linux.tar.xz",
           "sha256": "92da629910c64d1aa1024b66601bb30f731f837bd07b3fd206786be5e3ad9218",
-          "dest": ".pub-cache/git/fvp-eaecc1226f8f8ec9141d3145f627a0ec5550e3b1/linux/mdk-sdk"
+          "dest": ".pub-cache/git/fvp-f148ede71db202dc48c1129b20a38b1c9ddf2283/linux/mdk-sdk"
         }
       ]
     }
@@ -40,19 +40,24 @@
       ]
     }
   },
-  "rust_lib": {
-    "cargo_locks": [
-      "rust"
-    ],
-    "extra_pubspecs": [
-      "rust_builder/cargokit/build_tool"
-    ],
+  "native_toolchain_cmake": {
     "manifest": {
       "sources": [
         {
           "type": "patch",
-          "path": "cargokit/run_build_tool.sh.patch",
-          "dest": "rust_builder/cargokit"
+          "path": "patches/native_toolchain_cmake/run_builder.dart.patch",
+          "dest": ".pub-cache/git/native_toolchain_cmake-c83d9ce6d81cf3fd59b8eaa14c86ba2a3451de6b/lib/src/builder"
+        }
+      ]
+    }
+  },
+  "native_toolchain_rust": {
+    "manifest": {
+      "sources": [
+        {
+          "type": "patch",
+          "path": "patches/native_toolchain_rust/build_runner.dart.patch",
+          "dest": ".pub-cache/hosted/pub.dev/native_toolchain_rust-1.0.4/lib/src"
         }
       ]
     }
