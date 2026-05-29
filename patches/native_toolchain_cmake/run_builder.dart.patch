@@ -1,0 +1,16 @@
+diff --git a/run_builder.dart b/run_builder.dart
+index 80618bd..dd6bd6d 100644
+--- a/run_builder.dart
++++ b/run_builder.dart
+@@ -383,8 +383,10 @@ class RunCMakeBuilder {
+     }
+     final defs = <String>[];
+     defs.add('-DCMAKE_SYSTEM_NAME=Linux');
+-    final toolchain = await linuxToolchainCmake();
+-    defs.add('-DCMAKE_TOOLCHAIN_FILE=${toolchain.normalizePath().toFilePath()}');
++    if (Architecture.current != codeConfig.targetArchitecture) {
++      final toolchain = await linuxToolchainCmake();
++      defs.add('-DCMAKE_TOOLCHAIN_FILE=${toolchain.normalizePath().toFilePath()}');
++    }
+     return defs;
+   }

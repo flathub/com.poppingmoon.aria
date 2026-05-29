@@ -58,6 +58,12 @@ jobs:
           version=$(yq .flutter aria/.fvmrc)
           yq -i .modules[0].sources[1].tag=\"$version\" flatpak-flutter.yaml
 
+      - name: Update Rust version
+        if: steps.diff.outputs.update_found == 'true'
+        run: |
+          version=$(grep channel aria/rust/rust-toolchain.toml | cut -d '"' -f 2)
+          yq -i .modules[0].modules[0]=\"generated/modules/rustup-$version.json\" flatpak-flutter.yaml
+
       - name: Update fvp
         if: steps.diff.outputs.update_found == 'true'
         run: |
@@ -82,10 +88,7 @@ jobs:
             yq -io json .isar_community.manifest.sources[1].dest=\"$dest\" foreign.json
             yq -io json .isar_community.manifest.sources[2].dest=\"$dest\" foreign.json
 
-            git clone https://github.com/poppingmoon/isar-community
-            pushd isar-community
-            git checkout $ref
-            popd
+            git clone https://github.com/poppingmoon/isar-community --branch $ref --depth 1
 
             version=$(grep version isar-community/packages/isar_community/lib/src/hook_helpers/version.dart | cut -d "'" -f 2)
             name_x86_64=libisar_x86_64-unknown-linux-gnu.so
@@ -103,21 +106,30 @@ jobs:
             rm -r isar-community
           fi
 
+      - name: Update native_toolchain_cmake
+        if: steps.diff.outputs.update_found == 'true'
+        run: |
+          ref=$(yq .packages.native_toolchain_cmake.description.ref aria/pubspec.lock)
+          dest=.pub-cache/git/native_toolchain_cmake-$ref/lib/src/builder
+          yq -io json .native_toolchain_cmake.manifest.sources[0].dest=\"$dest\" foreign.json
+
+      - name: Update native_toolchain_rust
+        if: steps.diff.outputs.update_found == 'true'
+        run: |
+          version=$(yq .packages.native_toolchain_rust.version aria/pubspec.lock)
+          dest=.pub-cache/hosted/pub.dev/native_toolchain_rust-$version/lib/src
+          yq -io json .native_toolchain_rust.manifest.sources[0].dest=\"$dest\" foreign.json
+
       - name: Remove Aria
         if: steps.diff.outputs.update_found == 'true'
         run: rm -rf aria
-
-      - name: Update Rust version
-        if: steps.diff.outputs.update_found == 'true'
-        run: |
-          version=$(rustc --version | cut -d " " -f 2)
-          yq -i .modules[0].modules[0]=\"generated/modules/rustup-$version.json\" flatpak-flutter.yaml
 
       - name: Generate manifest
         if: steps.diff.outputs.update_found == 'true'
         run: >
           docker run --rm -v "$PWD":/usr/src/flatpak -u `id -u`:`id -g`
           theappgineer/flatpak-flutter:latest flatpak-flutter.yaml
+          --cargo-locks rust
 
       - name: Create Pull Request
         if: steps.diff.outputs.update_found == 'true'

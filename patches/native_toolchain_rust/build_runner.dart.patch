@@ -1,0 +1,22 @@
+diff --git a/build_runner.dart b/build_runner.dart
+index ea548d4..285d99c 100644
+--- a/build_runner.dart
++++ b/build_runner.dart
+@@ -78,9 +78,6 @@ interface class RustBuildRunner {
+       toolchainTomlPath: path.join(crateDirectory.path, 'rust-toolchain.toml'),
+     );
+
+-    logger.info('Ensuring $toolchainChannel is installed');
+-    await ensureToolchainDownloaded(crateDirectory.path);
+-
+     logger.info('Running cargo build');
+     await processRunner.invokeRustup(
+       [
+@@ -107,6 +104,8 @@ interface class RustBuildRunner {
+       environment: {
+         ...buildEnvironmentFactory.createBuildEnvVars(codeConfig),
+         ...extraCargoEnvironmentVariables,
++        'CARGO_HOME': '/run/build/aria/cargo',
++        'RUSTUP_HOME': '/var/lib/rustup',
+       },
+     );
