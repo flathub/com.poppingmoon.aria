@@ -197,16 +197,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/audioplayers-6.6.0.tar.gz",
-        "sha256": "a72dd459d1a48f61a6fb9c0134dba26597c9236af40639ff0eb70eb4e0baab70",
+        "url": "https://pub.dev/api/archives/audioplayers-6.7.0.tar.gz",
+        "sha256": "1d0c1b1f2095e59080e2d5046639096417a86687d89778da41b0c9a06d683dfd",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/audioplayers-6.6.0"
+        "dest": ".pub-cache/hosted/pub.dev/audioplayers-6.7.0"
     },
     {
         "type": "inline",
-        "contents": "a72dd459d1a48f61a6fb9c0134dba26597c9236af40639ff0eb70eb4e0baab70",
+        "contents": "1d0c1b1f2095e59080e2d5046639096417a86687d89778da41b0c9a06d683dfd",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "audioplayers-6.6.0.sha256"
+        "dest-filename": "audioplayers-6.7.0.sha256"
     },
     {
         "type": "archive",
@@ -267,30 +267,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/audioplayers_web-5.2.0.tar.gz",
-        "sha256": "faa8fa6587f996a6f604433b53af44c57a1407d4fe8dff5766cf63d6875e8de9",
+        "url": "https://pub.dev/api/archives/audioplayers_web-5.2.1.tar.gz",
+        "sha256": "24a6f258062bd7da8cb2157e83fccb9816a08dd306cbaaa24f9813d071470545",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/audioplayers_web-5.2.0"
+        "dest": ".pub-cache/hosted/pub.dev/audioplayers_web-5.2.1"
     },
     {
         "type": "inline",
-        "contents": "faa8fa6587f996a6f604433b53af44c57a1407d4fe8dff5766cf63d6875e8de9",
+        "contents": "24a6f258062bd7da8cb2157e83fccb9816a08dd306cbaaa24f9813d071470545",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "audioplayers_web-5.2.0.sha256"
+        "dest-filename": "audioplayers_web-5.2.1.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/audioplayers_windows-4.3.0.tar.gz",
-        "sha256": "bafff2b38b6f6d331887558ba6e0a01c9c208d9dbb3ad0005234db065122a734",
+        "url": "https://pub.dev/api/archives/audioplayers_windows-4.3.1.tar.gz",
+        "sha256": "95f875a96c88c3dbbcb608d4f8288e300b0113d256a81d0b3197fcc18f0dc91a",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/audioplayers_windows-4.3.0"
+        "dest": ".pub-cache/hosted/pub.dev/audioplayers_windows-4.3.1"
     },
     {
         "type": "inline",
-        "contents": "bafff2b38b6f6d331887558ba6e0a01c9c208d9dbb3ad0005234db065122a734",
+        "contents": "95f875a96c88c3dbbcb608d4f8288e300b0113d256a81d0b3197fcc18f0dc91a",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "audioplayers_windows-4.3.0.sha256"
+        "dest-filename": "audioplayers_windows-4.3.1.sha256"
     },
     {
         "type": "archive",
@@ -979,17 +979,18 @@
         "dest-filename": "file-7.0.1.sha256"
     },
     {
-        "type": "git",
-        "url": "https://github.com/miguelpruivo/flutter_file_picker",
-        "commit": "a601fb97217668af0bc56f69a25322f6714739bd",
-        "dest": ".pub-cache/git/flutter_file_picker-a601fb97217668af0bc56f69a25322f6714739bd"
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/file_picker-12.0.0-beta.5.tar.gz",
+        "sha256": "fc83774ce5bd7ce08168333b5e53dbe9090ec04eb21e7aa7cd7bac921032c934",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/file_picker-12.0.0-beta.5"
     },
     {
-        "type": "shell",
-        "commands": [
-            "mkdir -p .pub-cache/git/cache/flutter_file_picker-a2e2aae850bd17a6eb4ce79d60950df425b88f10",
-            "cp -rf .pub-cache/git/flutter_file_picker-a601fb97217668af0bc56f69a25322f6714739bd/.git/* .pub-cache/git/cache/flutter_file_picker-a2e2aae850bd17a6eb4ce79d60950df425b88f10"
-        ]
+        "type": "inline",
+        "contents": "fc83774ce5bd7ce08168333b5e53dbe9090ec04eb21e7aa7cd7bac921032c934",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "file_picker-12.0.0-beta.5.sha256"
     },
     {
         "type": "archive",
@@ -1620,14 +1621,14 @@
     {
         "type": "git",
         "url": "https://github.com/poppingmoon/fvp",
-        "commit": "f148ede71db202dc48c1129b20a38b1c9ddf2283",
-        "dest": ".pub-cache/git/fvp-f148ede71db202dc48c1129b20a38b1c9ddf2283"
+        "commit": "0f654a4765299efa5a89d5e46f3183e46213f2ae",
+        "dest": ".pub-cache/git/fvp-0f654a4765299efa5a89d5e46f3183e46213f2ae"
     },
     {
         "type": "shell",
         "commands": [
             "mkdir -p .pub-cache/git/cache/fvp-98d51f15c85341f6ad544c4235eabf9b0e230014",
-            "cp -rf .pub-cache/git/fvp-f148ede71db202dc48c1129b20a38b1c9ddf2283/.git/* .pub-cache/git/cache/fvp-98d51f15c85341f6ad544c4235eabf9b0e230014"
+            "cp -rf .pub-cache/git/fvp-0f654a4765299efa5a89d5e46f3183e46213f2ae/.git/* .pub-cache/git/cache/fvp-98d51f15c85341f6ad544c4235eabf9b0e230014"
         ]
     },
     {
@@ -1981,27 +1982,14 @@
     {
         "type": "git",
         "url": "https://github.com/poppingmoon/isar-community",
-        "commit": "81a5bb0aa550a6c75a190924a5f1cb6e4c664b7b",
-        "dest": ".pub-cache/git/isar-community-81a5bb0aa550a6c75a190924a5f1cb6e4c664b7b"
+        "commit": "54e11e041c520d89a3a8953d155d31afa9dfe373",
+        "dest": ".pub-cache/git/isar-community-54e11e041c520d89a3a8953d155d31afa9dfe373"
     },
     {
         "type": "shell",
         "commands": [
             "mkdir -p .pub-cache/git/cache/isar-community-d2dcbee56dc657be6ea942f13eb2e799b6e1f5fd",
-            "cp -rf .pub-cache/git/isar-community-81a5bb0aa550a6c75a190924a5f1cb6e4c664b7b/.git/* .pub-cache/git/cache/isar-community-d2dcbee56dc657be6ea942f13eb2e799b6e1f5fd"
-        ]
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/poppingmoon/isar-community",
-        "commit": "c09cf49881b0ba0013198f31cbcc001a26f6ef63",
-        "dest": ".pub-cache/git/isar-community-c09cf49881b0ba0013198f31cbcc001a26f6ef63"
-    },
-    {
-        "type": "shell",
-        "commands": [
-            "mkdir -p .pub-cache/git/cache/isar-community-d2dcbee56dc657be6ea942f13eb2e799b6e1f5fd",
-            "cp -rf .pub-cache/git/isar-community-c09cf49881b0ba0013198f31cbcc001a26f6ef63/.git/* .pub-cache/git/cache/isar-community-d2dcbee56dc657be6ea942f13eb2e799b6e1f5fd"
+            "cp -rf .pub-cache/git/isar-community-54e11e041c520d89a3a8953d155d31afa9dfe373/.git/* .pub-cache/git/cache/isar-community-d2dcbee56dc657be6ea942f13eb2e799b6e1f5fd"
         ]
     },
     {
@@ -2328,14 +2316,14 @@
     {
         "type": "git",
         "url": "https://github.com/poppingmoon/dart_mfm_parser",
-        "commit": "d3f6e7a7aa4dd05b7d5a7879ed41c1536a5ed1ff",
-        "dest": ".pub-cache/git/dart_mfm_parser-d3f6e7a7aa4dd05b7d5a7879ed41c1536a5ed1ff"
+        "commit": "b0ffed719065ab8880da07d37d450580cf0ea13a",
+        "dest": ".pub-cache/git/dart_mfm_parser-b0ffed719065ab8880da07d37d450580cf0ea13a"
     },
     {
         "type": "shell",
         "commands": [
             "mkdir -p .pub-cache/git/cache/dart_mfm_parser-97991e69def763196d2fd8a25157b2df89e3adab",
-            "cp -rf .pub-cache/git/dart_mfm_parser-d3f6e7a7aa4dd05b7d5a7879ed41c1536a5ed1ff/.git/* .pub-cache/git/cache/dart_mfm_parser-97991e69def763196d2fd8a25157b2df89e3adab"
+            "cp -rf .pub-cache/git/dart_mfm_parser-b0ffed719065ab8880da07d37d450580cf0ea13a/.git/* .pub-cache/git/cache/dart_mfm_parser-97991e69def763196d2fd8a25157b2df89e3adab"
         ]
     },
     {
@@ -2995,16 +2983,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/screen_brightness-2.1.8.tar.gz",
-        "sha256": "3dc44301ad51e6361b58a081d1bbd4a38442c9ed9b607a0970b7ca07f16cd691",
+        "url": "https://pub.dev/api/archives/screen_brightness-2.1.9.tar.gz",
+        "sha256": "7ea1c037422f007f022dcff3ee955bf8e61a474d5426b29be9290fd976c3e46b",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/screen_brightness-2.1.8"
+        "dest": ".pub-cache/hosted/pub.dev/screen_brightness-2.1.9"
     },
     {
         "type": "inline",
-        "contents": "3dc44301ad51e6361b58a081d1bbd4a38442c9ed9b607a0970b7ca07f16cd691",
+        "contents": "7ea1c037422f007f022dcff3ee955bf8e61a474d5426b29be9290fd976c3e46b",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "screen_brightness-2.1.8.sha256"
+        "dest-filename": "screen_brightness-2.1.9.sha256"
     },
     {
         "type": "archive",
@@ -3792,14 +3780,14 @@
     {
         "type": "git",
         "url": "https://github.com/poppingmoon/twemoji_v2",
-        "commit": "535ea95511bc93623264e1027087495a17bd68b9",
-        "dest": ".pub-cache/git/twemoji_v2-535ea95511bc93623264e1027087495a17bd68b9"
+        "commit": "2daaf885d50c0886035839b99ac5ac3e87650e7d",
+        "dest": ".pub-cache/git/twemoji_v2-2daaf885d50c0886035839b99ac5ac3e87650e7d"
     },
     {
         "type": "shell",
         "commands": [
             "mkdir -p .pub-cache/git/cache/twemoji_v2-e776fba23f11f3b4e06c223874d84dfa23cf9142",
-            "cp -rf .pub-cache/git/twemoji_v2-535ea95511bc93623264e1027087495a17bd68b9/.git/* .pub-cache/git/cache/twemoji_v2-e776fba23f11f3b4e06c223874d84dfa23cf9142"
+            "cp -rf .pub-cache/git/twemoji_v2-2daaf885d50c0886035839b99ac5ac3e87650e7d/.git/* .pub-cache/git/cache/twemoji_v2-e776fba23f11f3b4e06c223874d84dfa23cf9142"
         ]
     },
     {
@@ -4895,27 +4883,27 @@
         "type": "archive",
         "url": "https://github.com/wang-bin/mdk-sdk/releases/download/v0.36.0/mdk-sdk-linux.tar.xz",
         "sha256": "92da629910c64d1aa1024b66601bb30f731f837bd07b3fd206786be5e3ad9218",
-        "dest": ".pub-cache/git/fvp-f148ede71db202dc48c1129b20a38b1c9ddf2283/linux/mdk-sdk"
+        "dest": ".pub-cache/git/fvp-0f654a4765299efa5a89d5e46f3183e46213f2ae/linux/mdk-sdk"
     },
     {
         "type": "patch",
         "path": "patches/isar_community/build.dart.patch",
-        "dest": ".pub-cache/git/isar-community-81a5bb0aa550a6c75a190924a5f1cb6e4c664b7b/packages/isar_community/hook"
+        "dest": ".pub-cache/git/isar-community-54e11e041c520d89a3a8953d155d31afa9dfe373/packages/isar_community/hook"
     },
     {
         "type": "file",
-        "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2-2026.05.05/libisar_x86_64-unknown-linux-gnu.so",
-        "sha256": "571e1c2c09b70211f6a9946d25afa691336be21c61caee2a816a196813fab92a",
-        "dest": ".pub-cache/git/isar-community-81a5bb0aa550a6c75a190924a5f1cb6e4c664b7b/packages/isar_community",
+        "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2-2026.06.02/libisar_x86_64-unknown-linux-gnu.so",
+        "sha256": "afe87b30e8521d2684aa94a590658ba575adfd036e8e3e10b62127df783451a7",
+        "dest": ".pub-cache/git/isar-community-54e11e041c520d89a3a8953d155d31afa9dfe373/packages/isar_community",
         "only-arches": [
             "x86_64"
         ]
     },
     {
         "type": "file",
-        "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2-2026.05.05/libisar_aarch64-unknown-linux-gnu.so",
-        "sha256": "35c1cd174b00daa5771a22ce582946536a0659ca1df7330746585015fb1d96e8",
-        "dest": ".pub-cache/git/isar-community-81a5bb0aa550a6c75a190924a5f1cb6e4c664b7b/packages/isar_community",
+        "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2-2026.06.02/libisar_aarch64-unknown-linux-gnu.so",
+        "sha256": "fd65f9357da538f8e3b301b6a929081621d9df431f4ec9bb38cd5da9e5f397eb",
+        "dest": ".pub-cache/git/isar-community-54e11e041c520d89a3a8953d155d31afa9dfe373/packages/isar_community",
         "only-arches": [
             "aarch64"
         ]
