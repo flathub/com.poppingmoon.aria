@@ -88,7 +88,10 @@ jobs:
             yq -io json .isar_community.manifest.sources[1].dest=\"$dest\" foreign.json
             yq -io json .isar_community.manifest.sources[2].dest=\"$dest\" foreign.json
 
-            git clone https://github.com/poppingmoon/isar-community --branch $ref --depth 1
+            git clone https://github.com/poppingmoon/isar-community
+            pushd isar-community
+            git checkout $ref
+            popd
 
             version=$(grep version isar-community/packages/isar_community/lib/src/hook_helpers/version.dart | cut -d "'" -f 2)
             name_x86_64=libisar_x86_64-unknown-linux-gnu.so
