@@ -17,13 +17,13 @@
         {
           "type": "patch",
           "path": "patches/isar_community/build.dart.patch",
-          "dest": ".pub-cache/git/isar-community-50983857096bac7fb14b491b606bb17d40599c6e/packages/isar_community/hook"
+          "dest": ".pub-cache/git/isar-community-08387268dbb22a0ae01b80e5f15241f75086522f/packages/isar_community/hook"
         },
         {
           "type": "file",
           "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2-2026.06.02/libisar_x86_64-unknown-linux-gnu.so",
           "sha256": "afe87b30e8521d2684aa94a590658ba575adfd036e8e3e10b62127df783451a7",
-          "dest": ".pub-cache/git/isar-community-50983857096bac7fb14b491b606bb17d40599c6e/packages/isar_community",
+          "dest": ".pub-cache/git/isar-community-08387268dbb22a0ae01b80e5f15241f75086522f/packages/isar_community",
           "only-arches": [
             "x86_64"
           ]
@@ -32,7 +32,7 @@
           "type": "file",
           "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2-2026.06.02/libisar_aarch64-unknown-linux-gnu.so",
           "sha256": "fd65f9357da538f8e3b301b6a929081621d9df431f4ec9bb38cd5da9e5f397eb",
-          "dest": ".pub-cache/git/isar-community-50983857096bac7fb14b491b606bb17d40599c6e/packages/isar_community",
+          "dest": ".pub-cache/git/isar-community-08387268dbb22a0ae01b80e5f15241f75086522f/packages/isar_community",
           "only-arches": [
             "aarch64"
           ]
@@ -46,7 +46,7 @@
         {
           "type": "patch",
           "path": "patches/native_toolchain_cmake/run_builder.dart.patch",
-          "dest": ".pub-cache/git/native_toolchain_cmake-c83d9ce6d81cf3fd59b8eaa14c86ba2a3451de6b/lib/src/builder"
+          "dest": ".pub-cache/git/native_toolchain_cmake-61ada5a96742205513a7e735d59e5a526bc50ccd/lib/src/builder"
         }
       ]
     }
@@ -57,7 +57,7 @@
         {
           "type": "patch",
           "path": "patches/native_toolchain_rust/build_runner.dart.patch",
-          "dest": ".pub-cache/hosted/pub.dev/native_toolchain_rust-1.0.4/lib/src"
+          "dest": ".pub-cache/hosted/pub.dev/native_toolchain_rust-1.0.4+0/lib/src"
         }
       ]
     }
