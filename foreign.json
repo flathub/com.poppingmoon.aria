@@ -4,9 +4,9 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/wang-bin/mdk-sdk/releases/download/v0.36.0/mdk-sdk-linux.tar.xz",
-          "sha256": "92da629910c64d1aa1024b66601bb30f731f837bd07b3fd206786be5e3ad9218",
-          "dest": ".pub-cache/git/fvp-0d733a5f4dc03f793a9da9729eb9dd3eb6be4843/linux/mdk-sdk"
+          "url": "https://github.com/wang-bin/mdk-sdk/releases/download/v0.37.0/mdk-sdk-linux.tar.xz",
+          "sha256": "6c19de4ac3477cc1f63280dd753d5c3ad9f25a344d607a34513aa78eb2e99384",
+          "dest": ".pub-cache/git/fvp-4490cc1f362039553f6167cb44fa989239069e80/linux/mdk-sdk"
         }
       ]
     }
