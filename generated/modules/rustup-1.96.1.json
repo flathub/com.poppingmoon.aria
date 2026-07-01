@@ -1,0 +1,99 @@
+{
+    "name": "rustup",
+    "buildsystem": "simple",
+    "build-options": {
+        "env": {
+            "CARGO_HOME": "/var/lib/rustup",
+            "RUSTUP_HOME": "/var/lib/rustup",
+            "RUSTUP_DIST_SERVER": "file:///run/build/rustup/static.rust-lang.org"
+        }
+    },
+    "build-commands": [
+        "chmod +x rustup-init && ./rustup-init -y --default-toolchain 1.96.1 --profile minimal --no-modify-path",
+        "ln -s /var/lib/rustup/toolchains/1.96.1-${FLATPAK_ARCH}-unknown-linux-gnu /var/lib/rustup/toolchains/stable-${FLATPAK_ARCH}-unknown-linux-gnu"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://static.rust-lang.org/dist/channel-rust-1.96.1.toml",
+            "sha256": "87eb76c53073e72b766083bed5530820694253b832a762d8385bda5759f03975",
+            "dest": "static.rust-lang.org/dist"
+        },
+        {
+            "type": "file",
+            "url": "https://static.rust-lang.org/dist/channel-rust-1.96.1.toml.sha256",
+            "sha256": "221e9f5b196762dc5e34b757a19f614a829b094185f3a7762836eb5d88c3c515",
+            "dest": "static.rust-lang.org/dist"
+        },
+        {
+            "type": "file",
+            "only-arches": [
+                "aarch64"
+            ],
+            "url": "https://static.rust-lang.org/rustup/dist/aarch64-unknown-linux-gnu/rustup-init",
+            "sha256": "9732d6c5e2a098d3521fca8145d826ae0aaa067ef2385ead08e6feac88fa5792"
+        },
+        {
+            "type": "file",
+            "only-arches": [
+                "x86_64"
+            ],
+            "url": "https://static.rust-lang.org/rustup/dist/x86_64-unknown-linux-gnu/rustup-init",
+            "sha256": "4acc9acc76d5079515b46346a485974457b5a79893cfb01112423c89aeb5aa10"
+        },
+        {
+            "type": "file",
+            "only-arches": [
+                "aarch64"
+            ],
+            "url": "https://static.rust-lang.org/dist/2026-06-30/cargo-1.96.1-aarch64-unknown-linux-gnu.tar.xz",
+            "sha256": "02a4d7bf424ea28d574fe5b5d29e7ae99b0bc11a5920d8f28fa7408aa6a37992",
+            "dest": "static.rust-lang.org/dist/2026-06-30"
+        },
+        {
+            "type": "file",
+            "only-arches": [
+                "x86_64"
+            ],
+            "url": "https://static.rust-lang.org/dist/2026-06-30/cargo-1.96.1-x86_64-unknown-linux-gnu.tar.xz",
+            "sha256": "ecc53a3c49fab5ab8c9301b3bbc8fb1dff9be6c65287add3f57a0fe8fddfea9e",
+            "dest": "static.rust-lang.org/dist/2026-06-30"
+        },
+        {
+            "type": "file",
+            "only-arches": [
+                "aarch64"
+            ],
+            "url": "https://static.rust-lang.org/dist/2026-06-30/rust-std-1.96.1-aarch64-unknown-linux-gnu.tar.xz",
+            "sha256": "24bd362ff484421cae8be8c4d326fde143a086782e59e21fc7f353a5d04cd630",
+            "dest": "static.rust-lang.org/dist/2026-06-30"
+        },
+        {
+            "type": "file",
+            "only-arches": [
+                "x86_64"
+            ],
+            "url": "https://static.rust-lang.org/dist/2026-06-30/rust-std-1.96.1-x86_64-unknown-linux-gnu.tar.xz",
+            "sha256": "1bf4fde5048cca33e6ea00c7471281ed96d792f6923141e3db45072743a1afae",
+            "dest": "static.rust-lang.org/dist/2026-06-30"
+        },
+        {
+            "type": "file",
+            "only-arches": [
+                "aarch64"
+            ],
+            "url": "https://static.rust-lang.org/dist/2026-06-30/rustc-1.96.1-aarch64-unknown-linux-gnu.tar.xz",
+            "sha256": "4bc079af433c730af16aa90c96777985b86d40c4670670380160bd61626a577f",
+            "dest": "static.rust-lang.org/dist/2026-06-30"
+        },
+        {
+            "type": "file",
+            "only-arches": [
+                "x86_64"
+            ],
+            "url": "https://static.rust-lang.org/dist/2026-06-30/rustc-1.96.1-x86_64-unknown-linux-gnu.tar.xz",
+            "sha256": "3545a0efad2355ecb0a3b9ac02efee96e27f1f9d24b7ce2fc3f279b2efb0d923",
+            "dest": "static.rust-lang.org/dist/2026-06-30"
+        }
+    ]
+}
