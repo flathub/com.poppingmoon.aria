@@ -309,16 +309,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/build-4.0.6.tar.gz",
-        "sha256": "a156715e7cd728130c592f30552575908aae5b100005fbc1f0fb16b3c03a3d10",
+        "url": "https://pub.dev/api/archives/build-4.0.7.tar.gz",
+        "sha256": "45d14a0fb23e018d8287c32fc98d726ce466b231928ed9b9200f29bd3ccd39ae",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/build-4.0.6"
+        "dest": ".pub-cache/hosted/pub.dev/build-4.0.7"
     },
     {
         "type": "inline",
-        "contents": "a156715e7cd728130c592f30552575908aae5b100005fbc1f0fb16b3c03a3d10",
+        "contents": "45d14a0fb23e018d8287c32fc98d726ce466b231928ed9b9200f29bd3ccd39ae",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "build-4.0.6.sha256"
+        "dest-filename": "build-4.0.7.sha256"
     },
     {
         "type": "archive",
@@ -337,44 +337,44 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/build_config-1.3.0.tar.gz",
-        "sha256": "4070d2a59f8eec34c97c86ceb44403834899075f66e8a9d59706f8e7834f6f71",
+        "url": "https://pub.dev/api/archives/build_config-1.3.1.tar.gz",
+        "sha256": "f2c223156a26eea323e6244b85141d76413a80aeee9fe0b380773789fabaf8ae",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/build_config-1.3.0"
+        "dest": ".pub-cache/hosted/pub.dev/build_config-1.3.1"
     },
     {
         "type": "inline",
-        "contents": "4070d2a59f8eec34c97c86ceb44403834899075f66e8a9d59706f8e7834f6f71",
+        "contents": "f2c223156a26eea323e6244b85141d76413a80aeee9fe0b380773789fabaf8ae",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "build_config-1.3.0.sha256"
+        "dest-filename": "build_config-1.3.1.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/build_daemon-4.1.1.tar.gz",
-        "sha256": "bf05f6e12cfea92d3c09308d7bcdab1906cd8a179b023269eed00c071004b957",
+        "url": "https://pub.dev/api/archives/build_daemon-4.1.2.tar.gz",
+        "sha256": "fd754058c342243718d5171a95f352cfc9fcf0cba8cfa26df67cb13a5836db78",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/build_daemon-4.1.1"
+        "dest": ".pub-cache/hosted/pub.dev/build_daemon-4.1.2"
     },
     {
         "type": "inline",
-        "contents": "bf05f6e12cfea92d3c09308d7bcdab1906cd8a179b023269eed00c071004b957",
+        "contents": "fd754058c342243718d5171a95f352cfc9fcf0cba8cfa26df67cb13a5836db78",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "build_daemon-4.1.1.sha256"
+        "dest-filename": "build_daemon-4.1.2.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/build_runner-2.15.0.tar.gz",
-        "sha256": "1523ce62448ebac2c15a8ba5fbad8acac169788658a7dd2a1c2d9c2a9318b9a6",
+        "url": "https://pub.dev/api/archives/build_runner-2.15.1.tar.gz",
+        "sha256": "5367e521935b102bdf1e735d2aab461e36b2edca6517662d088dd04cc39f8d16",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/build_runner-2.15.0"
+        "dest": ".pub-cache/hosted/pub.dev/build_runner-2.15.1"
     },
     {
         "type": "inline",
-        "contents": "1523ce62448ebac2c15a8ba5fbad8acac169788658a7dd2a1c2d9c2a9318b9a6",
+        "contents": "5367e521935b102bdf1e735d2aab461e36b2edca6517662d088dd04cc39f8d16",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "build_runner-2.15.0.sha256"
+        "dest-filename": "build_runner-2.15.1.sha256"
     },
     {
         "type": "archive",
@@ -701,16 +701,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/cross_file-0.3.5+3.tar.gz",
-        "sha256": "d687bec93342bf6a764a116d15c8694ebeff10e633dc28a39dd3144f7195024e",
+        "url": "https://pub.dev/api/archives/cross_file-0.3.5+4.tar.gz",
+        "sha256": "92c9c43c383bfa1c32079d3bc492d55d6d4318044b7b47edaff8971cbb555c51",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/cross_file-0.3.5+3"
+        "dest": ".pub-cache/hosted/pub.dev/cross_file-0.3.5+4"
     },
     {
         "type": "inline",
-        "contents": "d687bec93342bf6a764a116d15c8694ebeff10e633dc28a39dd3144f7195024e",
+        "contents": "92c9c43c383bfa1c32079d3bc492d55d6d4318044b7b47edaff8971cbb555c51",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "cross_file-0.3.5+3.sha256"
+        "dest-filename": "cross_file-0.3.5+4.sha256"
     },
     {
         "type": "archive",
@@ -883,16 +883,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/equatable-2.0.8.tar.gz",
-        "sha256": "3e0141505477fd8ad55d6eb4e7776d3fe8430be8e497ccb1521370c3f21a3e2b",
+        "url": "https://pub.dev/api/archives/equatable-2.1.0.tar.gz",
+        "sha256": "3bce007a596ff8b3119c45d68aaef631272537c03d30e5d4534dd24bf4c5eaa2",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/equatable-2.0.8"
+        "dest": ".pub-cache/hosted/pub.dev/equatable-2.1.0"
     },
     {
         "type": "inline",
-        "contents": "3e0141505477fd8ad55d6eb4e7776d3fe8430be8e497ccb1521370c3f21a3e2b",
+        "contents": "3bce007a596ff8b3119c45d68aaef631272537c03d30e5d4534dd24bf4c5eaa2",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "equatable-2.0.8.sha256"
+        "dest-filename": "equatable-2.1.0.sha256"
     },
     {
         "type": "archive",
@@ -1467,16 +1467,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_rust_bridge-2.12.0.tar.gz",
-        "sha256": "e87d6b9ee934dcd24a128ccb2bd91905d2d5fe5c06245d6a8f5477d4907a437a",
+        "url": "https://pub.dev/api/archives/flutter_rust_bridge-2.13.0-beta.4.tar.gz",
+        "sha256": "20861a4148ebb72f547366b2dd575ef803e32ff1cb6dc5aa0c9ffdbc774f2799",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_rust_bridge-2.12.0"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_rust_bridge-2.13.0-beta.4"
     },
     {
         "type": "inline",
-        "contents": "e87d6b9ee934dcd24a128ccb2bd91905d2d5fe5c06245d6a8f5477d4907a437a",
+        "contents": "20861a4148ebb72f547366b2dd575ef803e32ff1cb6dc5aa0c9ffdbc774f2799",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_rust_bridge-2.12.0.sha256"
+        "dest-filename": "flutter_rust_bridge-2.13.0-beta.4.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/flutter_rust_bridge_hooks-2.13.0-beta.4.tar.gz",
+        "sha256": "0ae752d541b6878ac1baac7827502ea21cb3ac81bf57362895a6df2929707ac7",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/flutter_rust_bridge_hooks-2.13.0-beta.4"
+    },
+    {
+        "type": "inline",
+        "contents": "0ae752d541b6878ac1baac7827502ea21cb3ac81bf57362895a6df2929707ac7",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "flutter_rust_bridge_hooks-2.13.0-beta.4.sha256"
     },
     {
         "type": "archive",
@@ -2357,14 +2371,14 @@
     {
         "type": "git",
         "url": "https://github.com/poppingmoon/misskey_dart",
-        "commit": "6bae76ef634627a2335834ded1b96cd481d20418",
-        "dest": ".pub-cache/git/misskey_dart-6bae76ef634627a2335834ded1b96cd481d20418"
+        "commit": "ebd8ae33c1c9bbd4dc93c2b43b477f9425ec2ee5",
+        "dest": ".pub-cache/git/misskey_dart-ebd8ae33c1c9bbd4dc93c2b43b477f9425ec2ee5"
     },
     {
         "type": "shell",
         "commands": [
             "mkdir -p .pub-cache/git/cache/misskey_dart-1c002fdc6d9aa87914cbe58d7afb0e778665de02",
-            "cp -rf .pub-cache/git/misskey_dart-6bae76ef634627a2335834ded1b96cd481d20418/.git/* .pub-cache/git/cache/misskey_dart-1c002fdc6d9aa87914cbe58d7afb0e778665de02"
+            "cp -rf .pub-cache/git/misskey_dart-ebd8ae33c1c9bbd4dc93c2b43b477f9425ec2ee5/.git/* .pub-cache/git/cache/misskey_dart-1c002fdc6d9aa87914cbe58d7afb0e778665de02"
         ]
     },
     {
@@ -2411,14 +2425,14 @@
     {
         "type": "git",
         "url": "https://github.com/poppingmoon/native_toolchain_cmake",
-        "commit": "61ada5a96742205513a7e735d59e5a526bc50ccd",
-        "dest": ".pub-cache/git/native_toolchain_cmake-61ada5a96742205513a7e735d59e5a526bc50ccd"
+        "commit": "b2fdf21918953a9922bed35519595a2ec859a28f",
+        "dest": ".pub-cache/git/native_toolchain_cmake-b2fdf21918953a9922bed35519595a2ec859a28f"
     },
     {
         "type": "shell",
         "commands": [
             "mkdir -p .pub-cache/git/cache/native_toolchain_cmake-370670fe9cf45098c01e292446da68eadce10ef6",
-            "cp -rf .pub-cache/git/native_toolchain_cmake-61ada5a96742205513a7e735d59e5a526bc50ccd/.git/* .pub-cache/git/cache/native_toolchain_cmake-370670fe9cf45098c01e292446da68eadce10ef6"
+            "cp -rf .pub-cache/git/native_toolchain_cmake-b2fdf21918953a9922bed35519595a2ec859a28f/.git/* .pub-cache/git/cache/native_toolchain_cmake-370670fe9cf45098c01e292446da68eadce10ef6"
         ]
     },
     {
@@ -3082,72 +3096,72 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/screen_retriever-0.2.1.tar.gz",
-        "sha256": "42cc3b402a0f67d2455a0d067553d0f13453f6a008d98eababf8b63958d506bd",
+        "url": "https://pub.dev/api/archives/screen_retriever-0.2.2.tar.gz",
+        "sha256": "ace919117a7520c13a50a6259e60c4a0d4cbe98809468792a91b5c5adada2aa6",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/screen_retriever-0.2.1"
+        "dest": ".pub-cache/hosted/pub.dev/screen_retriever-0.2.2"
     },
     {
         "type": "inline",
-        "contents": "42cc3b402a0f67d2455a0d067553d0f13453f6a008d98eababf8b63958d506bd",
+        "contents": "ace919117a7520c13a50a6259e60c4a0d4cbe98809468792a91b5c5adada2aa6",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "screen_retriever-0.2.1.sha256"
+        "dest-filename": "screen_retriever-0.2.2.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/screen_retriever_linux-0.2.1.tar.gz",
-        "sha256": "2a476f1a5538065bc5badf376cfdc83d6ecf07d77eb2391b9c2bff5a76970048",
+        "url": "https://pub.dev/api/archives/screen_retriever_linux-0.2.2.tar.gz",
+        "sha256": "7b52006a5ceae1f3d5af7f77188c3290d6e7d8ded16d99809bea84967c65c257",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/screen_retriever_linux-0.2.1"
+        "dest": ".pub-cache/hosted/pub.dev/screen_retriever_linux-0.2.2"
     },
     {
         "type": "inline",
-        "contents": "2a476f1a5538065bc5badf376cfdc83d6ecf07d77eb2391b9c2bff5a76970048",
+        "contents": "7b52006a5ceae1f3d5af7f77188c3290d6e7d8ded16d99809bea84967c65c257",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "screen_retriever_linux-0.2.1.sha256"
+        "dest-filename": "screen_retriever_linux-0.2.2.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/screen_retriever_macos-0.2.1.tar.gz",
-        "sha256": "b5abb900fcb86614ff10b738b34e37b9e1d03b0447280668e2bc8a98bdc7bd59",
+        "url": "https://pub.dev/api/archives/screen_retriever_macos-0.2.2.tar.gz",
+        "sha256": "a1489b99cce597c45a54b9aae1cd94c8d4705353b7e0bb2457a6e4de44e0ad8a",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/screen_retriever_macos-0.2.1"
+        "dest": ".pub-cache/hosted/pub.dev/screen_retriever_macos-0.2.2"
     },
     {
         "type": "inline",
-        "contents": "b5abb900fcb86614ff10b738b34e37b9e1d03b0447280668e2bc8a98bdc7bd59",
+        "contents": "a1489b99cce597c45a54b9aae1cd94c8d4705353b7e0bb2457a6e4de44e0ad8a",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "screen_retriever_macos-0.2.1.sha256"
+        "dest-filename": "screen_retriever_macos-0.2.2.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/screen_retriever_platform_interface-0.2.1.tar.gz",
-        "sha256": "3af22d926bedf20c2caa308eea376776451a3af125919ce072e56525fded8901",
+        "url": "https://pub.dev/api/archives/screen_retriever_platform_interface-0.2.2.tar.gz",
+        "sha256": "94a5535277510a63184ca178ce12a1449bc0b38618879aa1c18bf57369c5064a",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/screen_retriever_platform_interface-0.2.1"
+        "dest": ".pub-cache/hosted/pub.dev/screen_retriever_platform_interface-0.2.2"
     },
     {
         "type": "inline",
-        "contents": "3af22d926bedf20c2caa308eea376776451a3af125919ce072e56525fded8901",
+        "contents": "94a5535277510a63184ca178ce12a1449bc0b38618879aa1c18bf57369c5064a",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "screen_retriever_platform_interface-0.2.1.sha256"
+        "dest-filename": "screen_retriever_platform_interface-0.2.2.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/screen_retriever_windows-0.2.1.tar.gz",
-        "sha256": "c44b38a4c4bab34af259180a70a4eee1e29384e7b82e627c9faa68afcdab2e73",
+        "url": "https://pub.dev/api/archives/screen_retriever_windows-0.2.2.tar.gz",
+        "sha256": "dafc6922b0bfbf1d48cf3ccbf519b4fff47bdcb820da1728ea6db675fecc9324",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/screen_retriever_windows-0.2.1"
+        "dest": ".pub-cache/hosted/pub.dev/screen_retriever_windows-0.2.2"
     },
     {
         "type": "inline",
-        "contents": "c44b38a4c4bab34af259180a70a4eee1e29384e7b82e627c9faa68afcdab2e73",
+        "contents": "dafc6922b0bfbf1d48cf3ccbf519b4fff47bdcb820da1728ea6db675fecc9324",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "screen_retriever_windows-0.2.1.sha256"
+        "dest-filename": "screen_retriever_windows-0.2.2.sha256"
     },
     {
         "type": "archive",
@@ -4115,16 +4129,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/video_player_platform_interface-6.8.0.tar.gz",
-        "sha256": "e4ae5bc934b528e5b95c5e47be2812860186260cd3eed3ac62f5ed380fdd1613",
+        "url": "https://pub.dev/api/archives/video_player_platform_interface-6.9.0.tar.gz",
+        "sha256": "92c0fbabe20c788e71fd10d26cea998d0d253282e65d145aed0818731cf593ce",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/video_player_platform_interface-6.8.0"
+        "dest": ".pub-cache/hosted/pub.dev/video_player_platform_interface-6.9.0"
     },
     {
         "type": "inline",
-        "contents": "e4ae5bc934b528e5b95c5e47be2812860186260cd3eed3ac62f5ed380fdd1613",
+        "contents": "92c0fbabe20c788e71fd10d26cea998d0d253282e65d145aed0818731cf593ce",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "video_player_platform_interface-6.8.0.sha256"
+        "dest-filename": "video_player_platform_interface-6.9.0.sha256"
     },
     {
         "type": "archive",
@@ -4241,14 +4255,14 @@
     {
         "type": "git",
         "url": "https://github.com/poppingmoon/webcrypto.dart",
-        "commit": "65144d0a180cbb891b524f0cbe8c50bb3326aad6",
-        "dest": ".pub-cache/git/webcrypto.dart-65144d0a180cbb891b524f0cbe8c50bb3326aad6"
+        "commit": "e9513be9b0f6d254fdab765f6322d4484615ba66",
+        "dest": ".pub-cache/git/webcrypto.dart-e9513be9b0f6d254fdab765f6322d4484615ba66"
     },
     {
         "type": "shell",
         "commands": [
             "mkdir -p .pub-cache/git/cache/webcrypto.dart-94a148f7846a87329d59c6551f18e31bc5102a2f",
-            "cp -rf .pub-cache/git/webcrypto.dart-65144d0a180cbb891b524f0cbe8c50bb3326aad6/.git/* .pub-cache/git/cache/webcrypto.dart-94a148f7846a87329d59c6551f18e31bc5102a2f"
+            "cp -rf .pub-cache/git/webcrypto.dart-e9513be9b0f6d254fdab765f6322d4484615ba66/.git/* .pub-cache/git/cache/webcrypto.dart-94a148f7846a87329d59c6551f18e31bc5102a2f"
         ]
     },
     {
@@ -4268,14 +4282,14 @@
     {
         "type": "git",
         "url": "https://github.com/poppingmoon/webfont_list",
-        "commit": "ce88e756a40b3916c17ede631f45353595f6ddd5",
-        "dest": ".pub-cache/git/webfont_list-ce88e756a40b3916c17ede631f45353595f6ddd5"
+        "commit": "aee1311ea73635347225250d4c615f577d284781",
+        "dest": ".pub-cache/git/webfont_list-aee1311ea73635347225250d4c615f577d284781"
     },
     {
         "type": "shell",
         "commands": [
             "mkdir -p .pub-cache/git/cache/webfont_list-31c330dcfccc0d727c80c957bcdfacd097ccacda",
-            "cp -rf .pub-cache/git/webfont_list-ce88e756a40b3916c17ede631f45353595f6ddd5/.git/* .pub-cache/git/cache/webfont_list-31c330dcfccc0d727c80c957bcdfacd097ccacda"
+            "cp -rf .pub-cache/git/webfont_list-aee1311ea73635347225250d4c615f577d284781/.git/* .pub-cache/git/cache/webfont_list-31c330dcfccc0d727c80c957bcdfacd097ccacda"
         ]
     },
     {
@@ -4337,16 +4351,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/window_manager-0.5.1.tar.gz",
-        "sha256": "7eb6d6c4164ec08e1bf978d6e733f3cebe792e2a23fb07cbca25c2872bfdbdcd",
+        "url": "https://pub.dev/api/archives/window_manager-0.5.2.tar.gz",
+        "sha256": "05c231fd7b23d2380f14c5cc10b7b93d60d4fa4a2fb4e0f032de27e44b5560e9",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/window_manager-0.5.1"
+        "dest": ".pub-cache/hosted/pub.dev/window_manager-0.5.2"
     },
     {
         "type": "inline",
-        "contents": "7eb6d6c4164ec08e1bf978d6e733f3cebe792e2a23fb07cbca25c2872bfdbdcd",
+        "contents": "05c231fd7b23d2380f14c5cc10b7b93d60d4fa4a2fb4e0f032de27e44b5560e9",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "window_manager-0.5.1.sha256"
+        "dest-filename": "window_manager-0.5.2.sha256"
     },
     {
         "type": "archive",
@@ -4954,7 +4968,7 @@
     {
         "type": "patch",
         "path": "patches/native_toolchain_cmake/run_builder.dart.patch",
-        "dest": ".pub-cache/git/native_toolchain_cmake-61ada5a96742205513a7e735d59e5a526bc50ccd/lib/src/builder"
+        "dest": ".pub-cache/git/native_toolchain_cmake-b2fdf21918953a9922bed35519595a2ec859a28f/lib/src/builder"
     },
     {
         "type": "patch",
