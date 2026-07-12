@@ -897,16 +897,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/extended_image-10.0.1.tar.gz",
-        "sha256": "f6cbb1d798f51262ed1a3d93b4f1f2aa0d76128df39af18ecb77fa740f88b2e0",
+        "url": "https://pub.dev/api/archives/extended_image-10.1.0.tar.gz",
+        "sha256": "e81d801cd692921f152834e01f39bba8b3d6302c48ad420d499c6062a7e24737",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/extended_image-10.0.1"
+        "dest": ".pub-cache/hosted/pub.dev/extended_image-10.1.0"
     },
     {
         "type": "inline",
-        "contents": "f6cbb1d798f51262ed1a3d93b4f1f2aa0d76128df39af18ecb77fa740f88b2e0",
+        "contents": "e81d801cd692921f152834e01f39bba8b3d6302c48ad420d499c6062a7e24737",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "extended_image-10.0.1.sha256"
+        "dest-filename": "extended_image-10.1.0.sha256"
     },
     {
         "type": "archive",
@@ -1467,30 +1467,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_rust_bridge-2.13.0-beta.4.tar.gz",
-        "sha256": "20861a4148ebb72f547366b2dd575ef803e32ff1cb6dc5aa0c9ffdbc774f2799",
+        "url": "https://pub.dev/api/archives/flutter_rust_bridge-2.13.0-beta.5.tar.gz",
+        "sha256": "d9d819e3f39efe08a68309ff7cadc9d8bcfd65d86319e0c5735cd4f4fee16c4a",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_rust_bridge-2.13.0-beta.4"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_rust_bridge-2.13.0-beta.5"
     },
     {
         "type": "inline",
-        "contents": "20861a4148ebb72f547366b2dd575ef803e32ff1cb6dc5aa0c9ffdbc774f2799",
+        "contents": "d9d819e3f39efe08a68309ff7cadc9d8bcfd65d86319e0c5735cd4f4fee16c4a",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_rust_bridge-2.13.0-beta.4.sha256"
+        "dest-filename": "flutter_rust_bridge-2.13.0-beta.5.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_rust_bridge_hooks-2.13.0-beta.4.tar.gz",
-        "sha256": "0ae752d541b6878ac1baac7827502ea21cb3ac81bf57362895a6df2929707ac7",
+        "url": "https://pub.dev/api/archives/flutter_rust_bridge_hooks-2.13.0-beta.5.tar.gz",
+        "sha256": "33f96e930af9016405f519696574f6fcb96ec37a515188d1da484fa81f9a90f7",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_rust_bridge_hooks-2.13.0-beta.4"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_rust_bridge_hooks-2.13.0-beta.5"
     },
     {
         "type": "inline",
-        "contents": "0ae752d541b6878ac1baac7827502ea21cb3ac81bf57362895a6df2929707ac7",
+        "contents": "33f96e930af9016405f519696574f6fcb96ec37a515188d1da484fa81f9a90f7",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_rust_bridge_hooks-2.13.0-beta.4.sha256"
+        "dest-filename": "flutter_rust_bridge_hooks-2.13.0-beta.5.sha256"
     },
     {
         "type": "archive",
@@ -2344,14 +2344,14 @@
     {
         "type": "git",
         "url": "https://github.com/poppingmoon/dart_mfm_parser",
-        "commit": "b89d453e6c73233937b74c18ccc9e0044106b9eb",
-        "dest": ".pub-cache/git/dart_mfm_parser-b89d453e6c73233937b74c18ccc9e0044106b9eb"
+        "commit": "3f2a4e305854ca0bf8e4e03583db796b63aff5c7",
+        "dest": ".pub-cache/git/dart_mfm_parser-3f2a4e305854ca0bf8e4e03583db796b63aff5c7"
     },
     {
         "type": "shell",
         "commands": [
             "mkdir -p .pub-cache/git/cache/dart_mfm_parser-97991e69def763196d2fd8a25157b2df89e3adab",
-            "cp -rf .pub-cache/git/dart_mfm_parser-b89d453e6c73233937b74c18ccc9e0044106b9eb/.git/* .pub-cache/git/cache/dart_mfm_parser-97991e69def763196d2fd8a25157b2df89e3adab"
+            "cp -rf .pub-cache/git/dart_mfm_parser-3f2a4e305854ca0bf8e4e03583db796b63aff5c7/.git/* .pub-cache/git/cache/dart_mfm_parser-97991e69def763196d2fd8a25157b2df89e3adab"
         ]
     },
     {
@@ -3795,14 +3795,14 @@
     {
         "type": "git",
         "url": "https://github.com/poppingmoon/twemoji_v2",
-        "commit": "536835989425cb69c5ca5f9d2619104e549cfc61",
-        "dest": ".pub-cache/git/twemoji_v2-536835989425cb69c5ca5f9d2619104e549cfc61"
+        "commit": "792a15478ad25b00b22552ac9cf809920f16cbdd",
+        "dest": ".pub-cache/git/twemoji_v2-792a15478ad25b00b22552ac9cf809920f16cbdd"
     },
     {
         "type": "shell",
         "commands": [
             "mkdir -p .pub-cache/git/cache/twemoji_v2-e776fba23f11f3b4e06c223874d84dfa23cf9142",
-            "cp -rf .pub-cache/git/twemoji_v2-536835989425cb69c5ca5f9d2619104e549cfc61/.git/* .pub-cache/git/cache/twemoji_v2-e776fba23f11f3b4e06c223874d84dfa23cf9142"
+            "cp -rf .pub-cache/git/twemoji_v2-792a15478ad25b00b22552ac9cf809920f16cbdd/.git/* .pub-cache/git/cache/twemoji_v2-e776fba23f11f3b4e06c223874d84dfa23cf9142"
         ]
     },
     {
@@ -4087,44 +4087,44 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/video_player-2.11.1.tar.gz",
-        "sha256": "48a7bdaa38a3d50ec10c78627abdbfad863fdf6f0d6e08c7c3c040cfd80ae36f",
+        "url": "https://pub.dev/api/archives/video_player-2.12.0.tar.gz",
+        "sha256": "0431179e1a7a2234a1148f64dde63c73167ca23829815169b24cc0bc6b9444a3",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/video_player-2.11.1"
+        "dest": ".pub-cache/hosted/pub.dev/video_player-2.12.0"
     },
     {
         "type": "inline",
-        "contents": "48a7bdaa38a3d50ec10c78627abdbfad863fdf6f0d6e08c7c3c040cfd80ae36f",
+        "contents": "0431179e1a7a2234a1148f64dde63c73167ca23829815169b24cc0bc6b9444a3",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "video_player-2.11.1.sha256"
+        "dest-filename": "video_player-2.12.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/video_player_android-2.10.0.tar.gz",
-        "sha256": "15bfd0598f8d8946bf0e2d50e2ca1a0db9491589a8bb7f6f9a388c0b48aef764",
+        "url": "https://pub.dev/api/archives/video_player_android-2.11.0.tar.gz",
+        "sha256": "5121de08444d00363efdda630a69ad4d27a208a9f7586482d4909a44a1cdbc63",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/video_player_android-2.10.0"
+        "dest": ".pub-cache/hosted/pub.dev/video_player_android-2.11.0"
     },
     {
         "type": "inline",
-        "contents": "15bfd0598f8d8946bf0e2d50e2ca1a0db9491589a8bb7f6f9a388c0b48aef764",
+        "contents": "5121de08444d00363efdda630a69ad4d27a208a9f7586482d4909a44a1cdbc63",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "video_player_android-2.10.0.sha256"
+        "dest-filename": "video_player_android-2.11.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/video_player_avfoundation-2.10.0.tar.gz",
-        "sha256": "76097729ef0c976937945afa53f1ca3afa9b50c9a95909ba347bcf93270466fd",
+        "url": "https://pub.dev/api/archives/video_player_avfoundation-2.11.0.tar.gz",
+        "sha256": "c238f5f0a26845cd0bcc2956049b63065a4d3c40ddfc22c3414cd170bef7fff9",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/video_player_avfoundation-2.10.0"
+        "dest": ".pub-cache/hosted/pub.dev/video_player_avfoundation-2.11.0"
     },
     {
         "type": "inline",
-        "contents": "76097729ef0c976937945afa53f1ca3afa9b50c9a95909ba347bcf93270466fd",
+        "contents": "c238f5f0a26845cd0bcc2956049b63065a4d3c40ddfc22c3414cd170bef7fff9",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "video_player_avfoundation-2.10.0.sha256"
+        "dest-filename": "video_player_avfoundation-2.11.0.sha256"
     },
     {
         "type": "archive",
@@ -4282,14 +4282,14 @@
     {
         "type": "git",
         "url": "https://github.com/poppingmoon/webfont_list",
-        "commit": "aee1311ea73635347225250d4c615f577d284781",
-        "dest": ".pub-cache/git/webfont_list-aee1311ea73635347225250d4c615f577d284781"
+        "commit": "6b13ce67e93c5f30ad2d456d22e188ec83e581ec",
+        "dest": ".pub-cache/git/webfont_list-6b13ce67e93c5f30ad2d456d22e188ec83e581ec"
     },
     {
         "type": "shell",
         "commands": [
             "mkdir -p .pub-cache/git/cache/webfont_list-31c330dcfccc0d727c80c957bcdfacd097ccacda",
-            "cp -rf .pub-cache/git/webfont_list-aee1311ea73635347225250d4c615f577d284781/.git/* .pub-cache/git/cache/webfont_list-31c330dcfccc0d727c80c957bcdfacd097ccacda"
+            "cp -rf .pub-cache/git/webfont_list-6b13ce67e93c5f30ad2d456d22e188ec83e581ec/.git/* .pub-cache/git/cache/webfont_list-31c330dcfccc0d727c80c957bcdfacd097ccacda"
         ]
     },
     {
