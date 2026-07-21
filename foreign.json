@@ -17,22 +17,22 @@
         {
           "type": "patch",
           "path": "patches/isar_community/build.dart.patch",
-          "dest": ".pub-cache/git/isar-community-08387268dbb22a0ae01b80e5f15241f75086522f/packages/isar_community/hook"
+          "dest": ".pub-cache/git/isar-community-24c09d4192dcf3c15c01a7e916de33e1c410d9b8/packages/isar_community/hook"
         },
         {
           "type": "file",
-          "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2-2026.06.02/libisar_x86_64-unknown-linux-gnu.so",
-          "sha256": "afe87b30e8521d2684aa94a590658ba575adfd036e8e3e10b62127df783451a7",
-          "dest": ".pub-cache/git/isar-community-08387268dbb22a0ae01b80e5f15241f75086522f/packages/isar_community",
+          "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2-2026.07.18/libisar_x86_64-unknown-linux-gnu.so",
+          "sha256": "60ba7b14c580cf600b97047b64198408855e9b32e17bd01bdf2406d70c8fceec",
+          "dest": ".pub-cache/git/isar-community-24c09d4192dcf3c15c01a7e916de33e1c410d9b8/packages/isar_community",
           "only-arches": [
             "x86_64"
           ]
         },
         {
           "type": "file",
-          "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2-2026.06.02/libisar_aarch64-unknown-linux-gnu.so",
-          "sha256": "fd65f9357da538f8e3b301b6a929081621d9df431f4ec9bb38cd5da9e5f397eb",
-          "dest": ".pub-cache/git/isar-community-08387268dbb22a0ae01b80e5f15241f75086522f/packages/isar_community",
+          "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2-2026.07.18/libisar_aarch64-unknown-linux-gnu.so",
+          "sha256": "d8435a32f91e07a34f60cb65a4dfbaa59656fce05d119f69835a5dda7911d075",
+          "dest": ".pub-cache/git/isar-community-24c09d4192dcf3c15c01a7e916de33e1c410d9b8/packages/isar_community",
           "only-arches": [
             "aarch64"
           ]
@@ -46,7 +46,7 @@
         {
           "type": "patch",
           "path": "patches/native_toolchain_cmake/run_builder.dart.patch",
-          "dest": ".pub-cache/git/native_toolchain_cmake-b2fdf21918953a9922bed35519595a2ec859a28f/lib/src/builder"
+          "dest": ".pub-cache/git/native_toolchain_cmake-d3302ec949379f24dccb33ef8719f0f77c02715e/lib/src/builder"
         }
       ]
     }
