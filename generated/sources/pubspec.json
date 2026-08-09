@@ -869,16 +869,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/dynamic_color-1.8.1.tar.gz",
-        "sha256": "43a5a6679649a7731ab860334a5812f2067c2d9ce6452cf069c5e0c25336c17c",
+        "url": "https://pub.dev/api/archives/dynamic_color-1.9.0.tar.gz",
+        "sha256": "4aeb76de323e8eb660bab5557d826ad7ebbf1434a598f0c6aa8a11a9696a6757",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/dynamic_color-1.8.1"
+        "dest": ".pub-cache/hosted/pub.dev/dynamic_color-1.9.0"
     },
     {
         "type": "inline",
-        "contents": "43a5a6679649a7731ab860334a5812f2067c2d9ce6452cf069c5e0c25336c17c",
+        "contents": "4aeb76de323e8eb660bab5557d826ad7ebbf1434a598f0c6aa8a11a9696a6757",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "dynamic_color-1.8.1.sha256"
+        "dest-filename": "dynamic_color-1.9.0.sha256"
     },
     {
         "type": "archive",
@@ -1356,16 +1356,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_local_notifications-22.2.0.tar.gz",
-        "sha256": "9375211fd7df9c070504ac4db7047c7fae857e238291433b770cfe696b5c357a",
+        "url": "https://pub.dev/api/archives/flutter_local_notifications-22.3.0.tar.gz",
+        "sha256": "1447ba911c60f2ba3f25dae1af151ec187162566b0f57e37771bf0b400f013ad",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_local_notifications-22.2.0"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_local_notifications-22.3.0"
     },
     {
         "type": "inline",
-        "contents": "9375211fd7df9c070504ac4db7047c7fae857e238291433b770cfe696b5c357a",
+        "contents": "1447ba911c60f2ba3f25dae1af151ec187162566b0f57e37771bf0b400f013ad",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_local_notifications-22.2.0.sha256"
+        "dest-filename": "flutter_local_notifications-22.3.0.sha256"
     },
     {
         "type": "archive",
@@ -1384,16 +1384,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_local_notifications_platform_interface-12.1.0.tar.gz",
-        "sha256": "945a438a4779f3aca3a948718d8a4048cbe9f9c8c797492c00abd5d39112bf37",
+        "url": "https://pub.dev/api/archives/flutter_local_notifications_platform_interface-12.2.0.tar.gz",
+        "sha256": "43c3761d916c9bd3d5c7ebbc44d82f4990329840c0c5d62ad5260cc1b5d399bd",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_local_notifications_platform_interface-12.1.0"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_local_notifications_platform_interface-12.2.0"
     },
     {
         "type": "inline",
-        "contents": "945a438a4779f3aca3a948718d8a4048cbe9f9c8c797492c00abd5d39112bf37",
+        "contents": "43c3761d916c9bd3d5c7ebbc44d82f4990329840c0c5d62ad5260cc1b5d399bd",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_local_notifications_platform_interface-12.1.0.sha256"
+        "dest-filename": "flutter_local_notifications_platform_interface-12.2.0.sha256"
     },
     {
         "type": "archive",
@@ -1468,58 +1468,58 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_rust_bridge-2.13.0-beta.5.tar.gz",
-        "sha256": "d9d819e3f39efe08a68309ff7cadc9d8bcfd65d86319e0c5735cd4f4fee16c4a",
+        "url": "https://pub.dev/api/archives/flutter_rust_bridge-2.13.0-beta.6.tar.gz",
+        "sha256": "7e8f565714dcb06197d29c74a559ee826c4eab4d586d7ccf9826aa5dc9478015",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_rust_bridge-2.13.0-beta.5"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_rust_bridge-2.13.0-beta.6"
     },
     {
         "type": "inline",
-        "contents": "d9d819e3f39efe08a68309ff7cadc9d8bcfd65d86319e0c5735cd4f4fee16c4a",
+        "contents": "7e8f565714dcb06197d29c74a559ee826c4eab4d586d7ccf9826aa5dc9478015",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_rust_bridge-2.13.0-beta.5.sha256"
+        "dest-filename": "flutter_rust_bridge-2.13.0-beta.6.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_rust_bridge_hooks-2.13.0-beta.5.tar.gz",
-        "sha256": "33f96e930af9016405f519696574f6fcb96ec37a515188d1da484fa81f9a90f7",
+        "url": "https://pub.dev/api/archives/flutter_rust_bridge_hooks-2.13.0-beta.6.tar.gz",
+        "sha256": "a950952d2de2ffc2464e336bd04fe16124b863a27ed547c41b94ad635d07bfd1",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_rust_bridge_hooks-2.13.0-beta.5"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_rust_bridge_hooks-2.13.0-beta.6"
     },
     {
         "type": "inline",
-        "contents": "33f96e930af9016405f519696574f6fcb96ec37a515188d1da484fa81f9a90f7",
+        "contents": "a950952d2de2ffc2464e336bd04fe16124b863a27ed547c41b94ad635d07bfd1",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_rust_bridge_hooks-2.13.0-beta.5.sha256"
+        "dest-filename": "flutter_rust_bridge_hooks-2.13.0-beta.6.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_secure_storage-10.3.1.tar.gz",
-        "sha256": "7686b1d6a29985dcbb808c59518226e603e3bfa7c0ddfd1a0d00e4cda77c868e",
+        "url": "https://pub.dev/api/archives/flutter_secure_storage-11.0.0.tar.gz",
+        "sha256": "15e8c8fe269fdf7d469b23008ab3df521c8b826ed345820532364c31bdebace6",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_secure_storage-10.3.1"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_secure_storage-11.0.0"
     },
     {
         "type": "inline",
-        "contents": "7686b1d6a29985dcbb808c59518226e603e3bfa7c0ddfd1a0d00e4cda77c868e",
+        "contents": "15e8c8fe269fdf7d469b23008ab3df521c8b826ed345820532364c31bdebace6",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_secure_storage-10.3.1.sha256"
+        "dest-filename": "flutter_secure_storage-11.0.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_secure_storage_darwin-0.3.2.tar.gz",
-        "sha256": "82329fa5cdf343773b1b6897dea959105a29f092454259edff92f9f6637e8149",
+        "url": "https://pub.dev/api/archives/flutter_secure_storage_darwin-0.4.0.tar.gz",
+        "sha256": "ac6d76a752de0cd738334eb4b21743fc4943f449f5b6e308f18838b048c02ac0",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_secure_storage_darwin-0.3.2"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_secure_storage_darwin-0.4.0"
     },
     {
         "type": "inline",
-        "contents": "82329fa5cdf343773b1b6897dea959105a29f092454259edff92f9f6637e8149",
+        "contents": "ac6d76a752de0cd738334eb4b21743fc4943f449f5b6e308f18838b048c02ac0",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_secure_storage_darwin-0.3.2.sha256"
+        "dest-filename": "flutter_secure_storage_darwin-0.4.0.sha256"
     },
     {
         "type": "archive",
@@ -1594,16 +1594,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/fluttertoast-9.1.0.tar.gz",
-        "sha256": "7903c9d5339173497bfecbc23bc4212f5a87e0edfac2e1693fb74465ea67da7e",
+        "url": "https://pub.dev/api/archives/fluttertoast-10.0.0.tar.gz",
+        "sha256": "1ecdfd4add8b57eb33f6a36e7856d023cb039fe652ab225504d8a712b4238572",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/fluttertoast-9.1.0"
+        "dest": ".pub-cache/hosted/pub.dev/fluttertoast-10.0.0"
     },
     {
         "type": "inline",
-        "contents": "7903c9d5339173497bfecbc23bc4212f5a87e0edfac2e1693fb74465ea67da7e",
+        "contents": "1ecdfd4add8b57eb33f6a36e7856d023cb039fe652ab225504d8a712b4238572",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "fluttertoast-9.1.0.sha256"
+        "dest-filename": "fluttertoast-10.0.0.sha256"
     },
     {
         "type": "archive",
@@ -1705,30 +1705,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/go_router-17.3.0.tar.gz",
-        "sha256": "5922b2861e2235a3504896f0d6fa07d84141b480cf52eecd2f42cd25585a9e8a",
+        "url": "https://pub.dev/api/archives/go_router-17.4.0.tar.gz",
+        "sha256": "55973bf1b27790489f8710ea615fe939f911ddcc5986fe97305e4fc19fa29ee9",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/go_router-17.3.0"
+        "dest": ".pub-cache/hosted/pub.dev/go_router-17.4.0"
     },
     {
         "type": "inline",
-        "contents": "5922b2861e2235a3504896f0d6fa07d84141b480cf52eecd2f42cd25585a9e8a",
+        "contents": "55973bf1b27790489f8710ea615fe939f911ddcc5986fe97305e4fc19fa29ee9",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "go_router-17.3.0.sha256"
+        "dest-filename": "go_router-17.4.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/google_fonts-8.2.0.tar.gz",
-        "sha256": "d3f251381df389f7418d4dff416bd27c0a23138df22969aafd28c4a4b1bb3cd6",
+        "url": "https://pub.dev/api/archives/google_fonts-8.2.1.tar.gz",
+        "sha256": "e3cb3ee6b47fd2472c23de6da5744796a4da195137759ddb3fbcc9467b7b3c7d",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/google_fonts-8.2.0"
+        "dest": ".pub-cache/hosted/pub.dev/google_fonts-8.2.1"
     },
     {
         "type": "inline",
-        "contents": "d3f251381df389f7418d4dff416bd27c0a23138df22969aafd28c4a4b1bb3cd6",
+        "contents": "e3cb3ee6b47fd2472c23de6da5744796a4da195137759ddb3fbcc9467b7b3c7d",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "google_fonts-8.2.0.sha256"
+        "dest-filename": "google_fonts-8.2.1.sha256"
     },
     {
         "type": "archive",
@@ -2024,14 +2024,14 @@
     {
         "type": "git",
         "url": "https://github.com/poppingmoon/native",
-        "commit": "b380193822cbc7a6c74373edd3a2185edd89ba56",
-        "dest": ".pub-cache/git/native-b380193822cbc7a6c74373edd3a2185edd89ba56"
+        "commit": "e7e48c07cb5d7087dce097a79d3f4dcd53a8fab3",
+        "dest": ".pub-cache/git/native-e7e48c07cb5d7087dce097a79d3f4dcd53a8fab3"
     },
     {
         "type": "shell",
         "commands": [
             "mkdir -p .pub-cache/git/cache/native-95c06c76171b2bf9871544b36daf5b3f75b5d28a",
-            "cp -rf .pub-cache/git/native-b380193822cbc7a6c74373edd3a2185edd89ba56/.git/* .pub-cache/git/cache/native-95c06c76171b2bf9871544b36daf5b3f75b5d28a"
+            "cp -rf .pub-cache/git/native-e7e48c07cb5d7087dce097a79d3f4dcd53a8fab3/.git/* .pub-cache/git/cache/native-95c06c76171b2bf9871544b36daf5b3f75b5d28a"
         ]
     },
     {
@@ -2047,6 +2047,20 @@
         "contents": "7b717011ea40d04fd47c2731d3d1d36eb99eba3435c2753d62489e8c3c9991d5",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "jni_flutter-1.0.2.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/jni_util-1.0.0.tar.gz",
+        "sha256": "1ba86da04a5f2bf18fde2edb235587e70c5b0fc5bd4ba955f46b00942c3fc35f",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/jni_util-1.0.0"
+    },
+    {
+        "type": "inline",
+        "contents": "1ba86da04a5f2bf18fde2edb235587e70c5b0fc5bd4ba955f46b00942c3fc35f",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "jni_util-1.0.0.sha256"
     },
     {
         "type": "archive",
@@ -2093,16 +2107,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/json_serializable-6.14.0.tar.gz",
-        "sha256": "ffcd10cde35a93b2abbbcc26bd9971f4ca93763e8abe78d855e3c4177797e501",
+        "url": "https://pub.dev/api/archives/json_serializable-6.14.1.tar.gz",
+        "sha256": "e45aefa0324f08c683caafbb94b72837aa6193c61822799c916e45f4a263113d",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/json_serializable-6.14.0"
+        "dest": ".pub-cache/hosted/pub.dev/json_serializable-6.14.1"
     },
     {
         "type": "inline",
-        "contents": "ffcd10cde35a93b2abbbcc26bd9971f4ca93763e8abe78d855e3c4177797e501",
+        "contents": "e45aefa0324f08c683caafbb94b72837aa6193c61822799c916e45f4a263113d",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "json_serializable-6.14.0.sha256"
+        "dest-filename": "json_serializable-6.14.1.sha256"
     },
     {
         "type": "archive",
@@ -3391,44 +3405,44 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/slang-4.18.0.tar.gz",
-        "sha256": "76dbf1f8e87ed1c417026e93a57512f6b6b597104ce72eed99b24a3ed08f0ba2",
+        "url": "https://pub.dev/api/archives/slang-4.19.0.tar.gz",
+        "sha256": "430749837528bb692b5ee03699fadab90d0d4a6dfbf42aab28e81df8da4c2fb8",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/slang-4.18.0"
+        "dest": ".pub-cache/hosted/pub.dev/slang-4.19.0"
     },
     {
         "type": "inline",
-        "contents": "76dbf1f8e87ed1c417026e93a57512f6b6b597104ce72eed99b24a3ed08f0ba2",
+        "contents": "430749837528bb692b5ee03699fadab90d0d4a6dfbf42aab28e81df8da4c2fb8",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "slang-4.18.0.sha256"
+        "dest-filename": "slang-4.19.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/slang_build_runner-4.18.0.tar.gz",
-        "sha256": "e24f5ab540c2078db20a1e3292b9bae11ef4ed07bef1c235ae000b0a6113267e",
+        "url": "https://pub.dev/api/archives/slang_build_runner-4.19.0.tar.gz",
+        "sha256": "f2b6c5fc1f5bc41de80b05e95e7d5d03b5c3041082877ce931fc7ba61cd08afe",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/slang_build_runner-4.18.0"
+        "dest": ".pub-cache/hosted/pub.dev/slang_build_runner-4.19.0"
     },
     {
         "type": "inline",
-        "contents": "e24f5ab540c2078db20a1e3292b9bae11ef4ed07bef1c235ae000b0a6113267e",
+        "contents": "f2b6c5fc1f5bc41de80b05e95e7d5d03b5c3041082877ce931fc7ba61cd08afe",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "slang_build_runner-4.18.0.sha256"
+        "dest-filename": "slang_build_runner-4.19.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/slang_flutter-4.18.0.tar.gz",
-        "sha256": "7523a9389b44210eabcfd58412d9131f284b9b3c22d731614f0016e9582ee996",
+        "url": "https://pub.dev/api/archives/slang_flutter-4.19.0.tar.gz",
+        "sha256": "2348a39432c48d7c890a2a1e3409b9faae3e49f117fe56d390d4236de8d064f4",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/slang_flutter-4.18.0"
+        "dest": ".pub-cache/hosted/pub.dev/slang_flutter-4.19.0"
     },
     {
         "type": "inline",
-        "contents": "7523a9389b44210eabcfd58412d9131f284b9b3c22d731614f0016e9582ee996",
+        "contents": "2348a39432c48d7c890a2a1e3409b9faae3e49f117fe56d390d4236de8d064f4",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "slang_flutter-4.18.0.sha256"
+        "dest-filename": "slang_flutter-4.19.0.sha256"
     },
     {
         "type": "archive",
@@ -4283,14 +4297,14 @@
     {
         "type": "git",
         "url": "https://github.com/poppingmoon/webfont_list",
-        "commit": "f0b06f8a4246836ea6a5cd3bcbba83a73531edaf",
-        "dest": ".pub-cache/git/webfont_list-f0b06f8a4246836ea6a5cd3bcbba83a73531edaf"
+        "commit": "addfe2df1f0c5cf48b99394add829b01e8692f78",
+        "dest": ".pub-cache/git/webfont_list-addfe2df1f0c5cf48b99394add829b01e8692f78"
     },
     {
         "type": "shell",
         "commands": [
             "mkdir -p .pub-cache/git/cache/webfont_list-31c330dcfccc0d727c80c957bcdfacd097ccacda",
-            "cp -rf .pub-cache/git/webfont_list-f0b06f8a4246836ea6a5cd3bcbba83a73531edaf/.git/* .pub-cache/git/cache/webfont_list-31c330dcfccc0d727c80c957bcdfacd097ccacda"
+            "cp -rf .pub-cache/git/webfont_list-addfe2df1f0c5cf48b99394add829b01e8692f78/.git/* .pub-cache/git/cache/webfont_list-31c330dcfccc0d727c80c957bcdfacd097ccacda"
         ]
     },
     {
