@@ -57,7 +57,7 @@
         {
           "type": "patch",
           "path": "patches/native_toolchain_rust/build_runner.dart.patch",
-          "dest": ".pub-cache/hosted/pub.dev/native_toolchain_rust-1.0.6/lib/src"
+          "dest": ".pub-cache/git/native_toolchain_rust-6113026d7b80344755160cfe9d615e024da0abe7/native_toolchain_rust/lib/src"
         }
       ]
     }
