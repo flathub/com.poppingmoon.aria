@@ -1,6 +1,6 @@
 id: com.poppingmoon.aria
 runtime: org.freedesktop.Platform
-runtime-version: '25.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.llvm20
@@ -39,8 +39,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/poppingmoon/aria.git
-        tag: v1.5.12
-        commit: 8d822114c77df0920e38484b0869b3185dc6997c
+        tag: v1.5.13
+        commit: 4c1bf8c148c5b96a18a289b69d5ac63bb6b02361
         disable-submodules: true
         x-checker-data:
           type: git

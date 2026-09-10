@@ -1523,16 +1523,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_secure_storage_darwin-0.4.0.tar.gz",
-        "sha256": "ac6d76a752de0cd738334eb4b21743fc4943f449f5b6e308f18838b048c02ac0",
+        "url": "https://pub.dev/api/archives/flutter_secure_storage_darwin-0.4.1.tar.gz",
+        "sha256": "d1021ca4c890194ec73f409387003f331b23a06199295a2317971de434b2cabc",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_secure_storage_darwin-0.4.0"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_secure_storage_darwin-0.4.1"
     },
     {
         "type": "inline",
-        "contents": "ac6d76a752de0cd738334eb4b21743fc4943f449f5b6e308f18838b048c02ac0",
+        "contents": "d1021ca4c890194ec73f409387003f331b23a06199295a2317971de434b2cabc",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_secure_storage_darwin-0.4.0.sha256"
+        "dest-filename": "flutter_secure_storage_darwin-0.4.1.sha256"
     },
     {
         "type": "archive",
@@ -2344,16 +2344,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/material_ui-1.1.1.tar.gz",
-        "sha256": "9c0156b0cf8b3f56d365c8ffe051a720be3cae9eec55119f01e01b986ffb7101",
+        "url": "https://pub.dev/api/archives/material_ui-1.2.0.tar.gz",
+        "sha256": "fbfb53cab6c4629438feeade5f3d305f72944bc9d9f25786b19106d32b80ec45",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/material_ui-1.1.1"
+        "dest": ".pub-cache/hosted/pub.dev/material_ui-1.2.0"
     },
     {
         "type": "inline",
-        "contents": "9c0156b0cf8b3f56d365c8ffe051a720be3cae9eec55119f01e01b986ffb7101",
+        "contents": "fbfb53cab6c4629438feeade5f3d305f72944bc9d9f25786b19106d32b80ec45",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "material_ui-1.1.1.sha256"
+        "dest-filename": "material_ui-1.2.0.sha256"
     },
     {
         "type": "archive",
@@ -2745,16 +2745,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/platform-3.1.6.tar.gz",
-        "sha256": "5d6b1b0036a5f331ebc77c850ebc8506cbc1e9416c27e59b439f917a902a4984",
+        "url": "https://pub.dev/api/archives/platform-3.2.0.tar.gz",
+        "sha256": "a36d119c13416516a7b5913fbe8af8531e11633d784c550b2125f76c758524ec",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/platform-3.1.6"
+        "dest": ".pub-cache/hosted/pub.dev/platform-3.2.0"
     },
     {
         "type": "inline",
-        "contents": "5d6b1b0036a5f331ebc77c850ebc8506cbc1e9416c27e59b439f917a902a4984",
+        "contents": "a36d119c13416516a7b5913fbe8af8531e11633d784c550b2125f76c758524ec",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "platform-3.1.6.sha256"
+        "dest-filename": "platform-3.2.0.sha256"
     },
     {
         "type": "archive",
@@ -4823,6 +4823,20 @@
         "contents": "6e7eac89047ab8a8d26cf16127b5ed26de65209847630400f9aefd7cd5c730db",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "node_preamble-2.0.2.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/platform-3.1.6.tar.gz",
+        "sha256": "5d6b1b0036a5f331ebc77c850ebc8506cbc1e9416c27e59b439f917a902a4984",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/platform-3.1.6"
+    },
+    {
+        "type": "inline",
+        "contents": "5d6b1b0036a5f331ebc77c850ebc8506cbc1e9416c27e59b439f917a902a4984",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "platform-3.1.6.sha256"
     },
     {
         "type": "archive",
