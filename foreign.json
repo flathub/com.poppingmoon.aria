@@ -17,22 +17,22 @@
         {
           "type": "patch",
           "path": "patches/isar_community/build.dart.patch",
-          "dest": ".pub-cache/git/isar-community-4bdb3ec9009549d5fa4a591b70482af4563bcbbd/packages/isar_community/hook"
+          "dest": ".pub-cache/git/isar-community-703d8dc7ac76cefeb9f3a2543842105d4cafdde0/packages/isar_community/hook"
         },
         {
           "type": "file",
-          "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2+2026.09.05/libisar_x86_64-unknown-linux-gnu.so",
-          "sha256": "e8e5a907df2544f5fa5d9657c23747d7b243c152f149ecccd30e374486e52786",
-          "dest": ".pub-cache/git/isar-community-4bdb3ec9009549d5fa4a591b70482af4563bcbbd/packages/isar_community",
+          "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2+2026.09.24/libisar_x86_64-unknown-linux-gnu.so",
+          "sha256": "aa36e123ce0afb1a3c88c8886b7a2cf1fa0dd8ee72bd4d067a6b9528640857d7",
+          "dest": ".pub-cache/git/isar-community-703d8dc7ac76cefeb9f3a2543842105d4cafdde0/packages/isar_community",
           "only-arches": [
             "x86_64"
           ]
         },
         {
           "type": "file",
-          "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2+2026.09.05/libisar_aarch64-unknown-linux-gnu.so",
-          "sha256": "69e03902ce56b7d3b8d217ec521439929205bfbbfac72e87fb1d247f123d8d9e",
-          "dest": ".pub-cache/git/isar-community-4bdb3ec9009549d5fa4a591b70482af4563bcbbd/packages/isar_community",
+          "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.3.2+2026.09.24/libisar_aarch64-unknown-linux-gnu.so",
+          "sha256": "7c2241e54b3634eeb778a60b61d66f39dfb225849b81e22e2fd09bf572fd63fa",
+          "dest": ".pub-cache/git/isar-community-703d8dc7ac76cefeb9f3a2543842105d4cafdde0/packages/isar_community",
           "only-arches": [
             "aarch64"
           ]
@@ -57,7 +57,7 @@
         {
           "type": "patch",
           "path": "patches/native_toolchain_rust/build_runner.dart.patch",
-          "dest": ".pub-cache/git/native_toolchain_rust-6113026d7b80344755160cfe9d615e024da0abe7/native_toolchain_rust/lib/src"
+          "dest": ".pub-cache/hosted/pub.dev/native_toolchain_rust-1.0.7/lib/src"
         }
       ]
     }

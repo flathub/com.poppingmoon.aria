@@ -11,7 +11,7 @@ runtime: org.freedesktop.Platform
 runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.llvm22
+  - org.freedesktop.Sdk.Extension.llvm20
 command: aria
 finish-args:
   - --share=ipc
@@ -30,8 +30,8 @@ modules:
         aarch64:
           env:
             BUNDLE_PATH: build/linux/arm64/release/bundle
-      append-path: /usr/lib/sdk/llvm22/bin:/var/lib/rustup/bin:/var/lib/flutter/bin
-      prepend-ld-library-path: /usr/lib/sdk/llvm22/lib
+      append-path: /usr/lib/sdk/llvm20/bin:/var/lib/rustup/bin:/var/lib/flutter/bin
+      prepend-ld-library-path: /usr/lib/sdk/llvm20/lib
       env:
         PUB_CACHE: /run/build/aria/.pub-cache
         CARGO_HOME: /run/build/aria/cargo
@@ -48,8 +48,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/poppingmoon/aria.git
-        tag: v1.5.13
-        commit: 4c1bf8c148c5b96a18a289b69d5ac63bb6b02361
+        tag: v1.5.14
+        commit: eb5eb10ac639811d0072f4fa7710d7c1b444daba
         disable-submodules: true
         x-checker-data:
           type: git
@@ -58,4 +58,4 @@ modules:
       - generated/sources/pubspec.json
     modules:
       - generated/modules/rustup-1.98.1.json
-      - generated/modules/flutter-sdk-3.47.2.json
+      - generated/modules/flutter-sdk-3.47.5.json
