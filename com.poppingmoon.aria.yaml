@@ -48,8 +48,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/poppingmoon/aria.git
-        tag: v1.5.16
-        commit: 547a64b8ca0e588d32c6dd5ae23b47e74965a55f
+        tag: v1.5.17
+        commit: 8f4b35e5479d0632fe3a50e80c8313eb273c3d93
         disable-submodules: true
         x-checker-data:
           type: git
@@ -57,5 +57,5 @@ modules:
       - generated/sources/cargo.json
       - generated/sources/pubspec.json
     modules:
-      - generated/modules/rustup-1.99.0.json
-      - generated/modules/flutter-sdk-3.47.9.json
+      - generated/modules/rustup-1.100.0.json
+      - generated/modules/flutter-sdk-3.50.0.json
