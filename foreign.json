@@ -4,9 +4,9 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/wang-bin/mdk-sdk/releases/download/v0.39.0/mdk-sdk-linux.tar.xz",
-          "sha256": "8a66c5ab23a5e357511e01ff9d369a68dce6470076303136a619bbe120518479",
-          "dest": ".pub-cache/git/fvp-98da36b312ba7047b2dd2e97d5547d4fa301df4d/linux/mdk-sdk"
+          "url": "https://github.com/wang-bin/mdk-sdk/releases/download/v0.40.1/mdk-sdk-linux.tar.xz",
+          "sha256": "684fe45e46cba74785339af7dd2f470fc9e8a6f74675da36b6d10b4f372fdaca",
+          "dest": ".pub-cache/git/fvp-5ab2dbee10f7105177b618e702ebeb41eac15ae1/linux/mdk-sdk"
         }
       ]
     }
@@ -17,22 +17,22 @@
         {
           "type": "patch",
           "path": "patches/isar_community/build.dart.patch",
-          "dest": ".pub-cache/git/isar-community-24625dd5efe0e04d34684feae8687792f7726533/packages/isar_community/hook"
+          "dest": ".pub-cache/git/isar-community-f5d86794f58d7bc24f837e7edebd49f7033a18df/packages/isar_community/hook"
         },
         {
           "type": "file",
-          "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.4.1+2026.10.21/libisar_x86_64-unknown-linux-gnu.so",
-          "sha256": "3503ad05370fe36059a2049cd087835e870493528d3689f934c1d03da1ad0a75",
-          "dest": ".pub-cache/git/isar-community-24625dd5efe0e04d34684feae8687792f7726533/packages/isar_community",
+          "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.4.1+2026.11.16/libisar_x86_64-unknown-linux-gnu.so",
+          "sha256": "a0da8f331f0698491b67e3043301849b0bf5c179cc093e57e05ce1f1c9c20610",
+          "dest": ".pub-cache/git/isar-community-f5d86794f58d7bc24f837e7edebd49f7033a18df/packages/isar_community",
           "only-arches": [
             "x86_64"
           ]
         },
         {
           "type": "file",
-          "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.4.1+2026.10.21/libisar_aarch64-unknown-linux-gnu.so",
-          "sha256": "fe02953b36474432a5714b685b14d74fe73722e4a3f4b8aaa1977ddc4fa3d644",
-          "dest": ".pub-cache/git/isar-community-24625dd5efe0e04d34684feae8687792f7726533/packages/isar_community",
+          "url": "https://github.com/poppingmoon/isar-community/releases/download/v3.4.1+2026.11.16/libisar_aarch64-unknown-linux-gnu.so",
+          "sha256": "36b4ece73cde82046c444c424ddcdc7da5c3de2a714d1d65f118767acf19d9cb",
+          "dest": ".pub-cache/git/isar-community-f5d86794f58d7bc24f837e7edebd49f7033a18df/packages/isar_community",
           "only-arches": [
             "aarch64"
           ]
@@ -57,7 +57,7 @@
         {
           "type": "patch",
           "path": "patches/native_toolchain_rust/build_runner.dart.patch",
-          "dest": ".pub-cache/hosted/pub.dev/native_toolchain_rust-1.0.7/lib/src"
+          "dest": ".pub-cache/hosted/pub.dev/native_toolchain_rust-1.1.1/lib/src"
         }
       ]
     }
